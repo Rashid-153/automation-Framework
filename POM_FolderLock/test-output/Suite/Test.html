@@ -1,0 +1,267 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>18/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jan 26 17:52:42 PKT 2021</td>
+</tr>
+<tr><td>Total time:</td><td>37 seconds (37742 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.TestVerifyHidePhotos.Validate_All_ImagesUpladed()'><b>Validate_All_ImagesUpladed</b><br>Test class: test.TestVerifyHidePhotos</td>
+<td></td>
+<td>2</td>
+<td>test.TestVerifyHidePhotos@954b04f</td></tr>
+<tr>
+<td title='test.TestVerifyHidePhotos.Validate_CountImages()'><b>Validate_CountImages</b><br>Test class: test.TestVerifyHidePhotos</td>
+<td></td>
+<td>1</td>
+<td>test.TestVerifyHidePhotos@954b04f</td></tr>
+<tr>
+<td title='test.TestVerifyHidePhotos.Validate_HideButton_working()'><b>Validate_HideButton_working</b><br>Test class: test.TestVerifyHidePhotos</td>
+<td></td>
+<td>0</td>
+<td>test.TestVerifyHidePhotos@954b04f</td></tr>
+<tr>
+<td title='test.TestVerifyHidePhotos.Validate_ImagesSelected()'><b>Validate_ImagesSelected</b><br>Test class: test.TestVerifyHidePhotos</td>
+<td></td>
+<td>7</td>
+<td>test.TestVerifyHidePhotos@954b04f</td></tr>
+<tr>
+<td title='test.TestOpenPhotos.validate_ClickOnPhotosSection()'><b>validate_ClickOnPhotosSection</b><br>Test class: test.TestOpenPhotos<br/>
+<a href="#Output-1143390193" onClick='toggleBox("Output-1143390193", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1143390193" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1143390193">
+Photos Section open succesfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.TestOpenPhotos@4d1b0d2a</td></tr>
+<tr>
+<td title='test.TestLoginWithPin.validate_DashboardApear_Correct()'><b>validate_DashboardApear_Correct</b><br>Test class: test.TestLoginWithPin<br/>
+<a href="#Output-735085430" onClick='toggleBox("Output-735085430", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-735085430" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-735085430">
+Dashoard Title 'Folder Lock' is correct<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.TestLoginWithPin@5c072e3f</td></tr>
+<tr>
+<td title='test.TestOpenPhotos.validate_FolderIsOpen()'><b>validate_FolderIsOpen</b><br>Test class: test.TestOpenPhotos<br/>
+<a href="#Output-1904288897" onClick='toggleBox("Output-1904288897", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1904288897" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1904288897">
+Folder Open succesfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.TestOpenPhotos@4d1b0d2a</td></tr>
+<tr>
+<td title='test.TestOpenPhotos.validate_FolderTitle_correct()'><b>validate_FolderTitle_correct</b><br>Test class: test.TestOpenPhotos<br/>
+<a href="#Output-1681303515" onClick='toggleBox("Output-1681303515", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1681303515" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1681303515">
+'AutoCreate' title same as expected<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.TestOpenPhotos@4d1b0d2a</td></tr>
+<tr>
+<td title='test.TestOpenPhotos.validate_GalleryTitle_Correct()'><b>validate_GalleryTitle_Correct</b><br>Test class: test.TestOpenPhotos<br/>
+<a href="#Output-1916904573" onClick='toggleBox("Output-1916904573", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1916904573" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1916904573">
+Open Gallery Title of image Library is correct<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.TestOpenPhotos@4d1b0d2a</td></tr>
+<tr>
+<td title='test.TestOpenPhotos.validate_ImageFolder_Open()'><b>validate_ImageFolder_Open</b><br>Test class: test.TestOpenPhotos<br/>
+<a href="#Output-1651667865" onClick='toggleBox("Output-1651667865", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1651667865" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1651667865">
+Use FolderLock Unhide Files Folder for uploading images<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.TestOpenPhotos@4d1b0d2a</td></tr>
+<tr>
+<td title='test.TestOpenPhotos.validate_ImagesFoundOnDevice()'><b>validate_ImagesFoundOnDevice</b><br>Test class: test.TestOpenPhotos<br/>
+<a href="#Output-792782299" onClick='toggleBox("Output-792782299", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-792782299" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-792782299">
+Total Folder : 1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.TestOpenPhotos@4d1b0d2a</td></tr>
+<tr>
+<td title='test.TestOpenPhotos.validate_ImportFromGalleryBtn_Working()'><b>validate_ImportFromGalleryBtn_Working</b><br>Test class: test.TestOpenPhotos<br/>
+<a href="#Output-423733503" onClick='toggleBox("Output-423733503", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-423733503" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-423733503">
+import From gallery working<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>test.TestOpenPhotos@4d1b0d2a</td></tr>
+<tr>
+<td title='test.TestOpenPhotos.validate_NewFolderCreated()'><b>validate_NewFolderCreated</b><br>Test class: test.TestOpenPhotos<br/>
+<a href="#Output-428039780" onClick='toggleBox("Output-428039780", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-428039780" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-428039780">
+'AutoCreate' Folder Already present in device<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.TestOpenPhotos@4d1b0d2a</td></tr>
+<tr>
+<td title='test.TestOpenPhotos.validate_PhotosPageTitle_correct()'><b>validate_PhotosPageTitle_correct</b><br>Test class: test.TestOpenPhotos<br/>
+<a href="#Output-1016860054" onClick='toggleBox("Output-1016860054", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1016860054" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1016860054">
+Title Equal as per Expected<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.TestOpenPhotos@4d1b0d2a</td></tr>
+<tr>
+<td title='test.TestOpenPhotos.validate_PlusButton_Working()'><b>validate_PlusButton_Working</b><br>Test class: test.TestOpenPhotos<br/>
+<a href="#Output-1327871893" onClick='toggleBox("Output-1327871893", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1327871893" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1327871893">
+Import Plus Button Working fine<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.TestOpenPhotos@4d1b0d2a</td></tr>
+<tr>
+<td title='test.TestOpenPhotos.validate_TutorialPopUpSkipped()'><b>validate_TutorialPopUpSkipped</b><br>Test class: test.TestOpenPhotos<br/>
+<a href="#Output-778720569" onClick='toggleBox("Output-778720569", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-778720569" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-778720569">
+Rating PopUp Does't Appear<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>test.TestOpenPhotos@4d1b0d2a</td></tr>
+<tr>
+<td title='test.TestLoginWithPin.validate_pin_working_correct()'><b>validate_pin_working_correct</b><br>Test class: test.TestLoginWithPin<br/>
+<a href="#Output-337533935" onClick='toggleBox("Output-337533935", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-337533935" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-337533935">
+Pin Enter into text box successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.TestLoginWithPin@5c072e3f</td></tr>
+<tr>
+<td title='test.TestLoginWithPin.validate_ratingPopUpSkiped()'><b>validate_ratingPopUpSkiped</b><br>Test class: test.TestLoginWithPin<br/>
+<a href="#Output-211090736" onClick='toggleBox("Output-211090736", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-211090736" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-211090736">
+Rating PopUp does't appear<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>test.TestLoginWithPin@5c072e3f</td></tr>
+</table><p>
+</body>
+</html>
