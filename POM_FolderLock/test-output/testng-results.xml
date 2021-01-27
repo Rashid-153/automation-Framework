@@ -1,25 +1,193 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
   <reporter-output>
+    <line>
+      <![CDATA[Pin Enter into text box successfully]]>
+    </line>
+    <line>
+      <![CDATA[Rating PopUp skipped]]>
+    </line>
+    <line>
+      <![CDATA[Dashoard Title 'Folder Lock' is correct]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3795" started-at="2021-01-26T18:55:57 PKT" finished-at="2021-01-26T18:56:00 PKT">
+  <suite name="Default suite" duration-ms="215552" started-at="2021-01-27T17:33:29 PKT" finished-at="2021-01-27T17:37:04 PKT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3795" started-at="2021-01-26T18:55:57 PKT" finished-at="2021-01-26T18:56:00 PKT">
-      <class name="test.TestUnhidePhotos">
-        <test-method status="PASS" signature="setup()[pri:0, instance:test.TestUnhidePhotos@2781e022]" name="setup" is-config="true" duration-ms="13872" started-at="2021-01-26T18:55:43 PKT" finished-at="2021-01-26T18:55:57 PKT">
+    <test name="Default test" duration-ms="215552" started-at="2021-01-27T17:33:29 PKT" finished-at="2021-01-27T17:37:04 PKT">
+      <class name="test.TestLoginWithPin">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.TestLoginWithPin@15de0b3c]" name="setup" is-config="true" duration-ms="20406" started-at="2021-01-27T17:33:08 PKT" finished-at="2021-01-27T17:33:29 PKT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="selectMediaToUnhide()[pri:0, instance:test.TestUnhidePhotos@2781e022]" name="selectMediaToUnhide" duration-ms="3767" started-at="2021-01-26T18:55:57 PKT" finished-at="2021-01-26T18:56:00 PKT">
+        <test-method status="PASS" signature="validate_pin_working_correct()[pri:1, instance:test.TestLoginWithPin@15de0b3c]" name="validate_pin_working_correct" duration-ms="1099" started-at="2021-01-27T17:33:29 PKT" finished-at="2021-01-27T17:33:30 PKT">
+          <reporter-output>
+            <line>
+              <![CDATA[Pin Enter into text box successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validate_pin_working_correct -->
+        <test-method status="PASS" signature="validate_ratingPopUpSkiped()[pri:2, instance:test.TestLoginWithPin@15de0b3c]" name="validate_ratingPopUpSkiped" duration-ms="3233" started-at="2021-01-27T17:33:30 PKT" finished-at="2021-01-27T17:33:33 PKT">
+          <reporter-output>
+            <line>
+              <![CDATA[Rating PopUp skipped]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validate_ratingPopUpSkiped -->
+        <test-method status="PASS" signature="validate_DashboardApear_Correct()[pri:3, instance:test.TestLoginWithPin@15de0b3c]" name="validate_DashboardApear_Correct" duration-ms="3516" started-at="2021-01-27T17:33:33 PKT" finished-at="2021-01-27T17:33:37 PKT">
+          <reporter-output>
+            <line>
+              <![CDATA[Dashoard Title 'Folder Lock' is correct]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validate_DashboardApear_Correct -->
+        <test-method status="FAIL" signature="validate_AdsAppear()[pri:4, instance:test.TestLoginWithPin@15de0b3c]" name="validate_AdsAppear" duration-ms="201909" started-at="2021-01-27T17:33:37 PKT" finished-at="2021-01-27T17:36:59 PKT">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id (A session is either terminated or not started (2cd388e1-ba9f-4dee-8080-0c01f88b7a4c), A session could be terminated due to the end of timeout specified by newCommandTimeout https://docs.experitest.com/display/AS/Timeout+Capabilities)  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'FARIZ-PC', ip: '192.168.79.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appBuildVersion: , appPackage: com.newsoftwares.folderlock_v1, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: true, autoWebview: false, browserName: , commandTimeouts: 120000, desired: {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appPackage: com.newsoftwares.folderlock_v1, autoGrantPermissions: true, browserName: , deviceName: SM-A515F, fullReset: false, noReset: true, platformName: Android, platformVersion: 10}, device.category: PHONE, device.majorVersion: 10, device.manufacture: samsung, device.model: SM-A515F, device.name: SM-A515F, device.os: Android, device.screenSize: 1080x2400, device.serialNumber: R58N20PLGPY, device.version: 10, deviceName: SM-A515F, deviceUDID: R58N20PLGPY, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: true, platform: ANDROID, platformName: Android, platformVersion: 10, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Fariz Anjum\appium..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 01/27/21 05:33 PM, udid: R58N20PLGPY, useKeystore: false, waitForDeviceTimeout: 120000}
+Session ID: 2cd388e1-ba9f-4dee-8080-0c01f88b7a4c
+*** Element info: {Using=class name, value=android.webkit.WebView}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id (A session is either terminated or not started (2cd388e1-ba9f-4dee-8080-0c01f88b7a4c), A session could be terminated due to the end of timeout specified by newCommandTimeout https://docs.experitest.com/display/AS/Timeout+Capabilities)  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'FARIZ-PC', ip: '192.168.79.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appBuildVersion: , appPackage: com.newsoftwares.folderlock_v1, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: true, autoWebview: false, browserName: , commandTimeouts: 120000, desired: {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appPackage: com.newsoftwares.folderlock_v1, autoGrantPermissions: true, browserName: , deviceName: SM-A515F, fullReset: false, noReset: true, platformName: Android, platformVersion: 10}, device.category: PHONE, device.majorVersion: 10, device.manufacture: samsung, device.model: SM-A515F, device.name: SM-A515F, device.os: Android, device.screenSize: 1080x2400, device.serialNumber: R58N20PLGPY, device.version: 10, deviceName: SM-A515F, deviceUDID: R58N20PLGPY, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: true, platform: ANDROID, platformName: Android, platformVersion: 10, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Fariz Anjum\appium..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 01/27/21 05:33 PM, udid: R58N20PLGPY, useKeystore: false, waitForDeviceTimeout: 120000}
+Session ID: 2cd388e1-ba9f-4dee-8080-0c01f88b7a4c
+*** Element info: {Using=class name, value=android.webkit.WebView}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:53)
+at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:179)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementsByClassName(RemoteWebDriver.java:416)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementsByClassName(DefaultGenericMobileDriver.java:129)
+at io.appium.java_client.AppiumDriver.findElementsByClassName(AppiumDriver.java:204)
+at org.openqa.selenium.By$ByClassName.findElements(By.java:380)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:49)
+at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:174)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElements(DefaultElementLocator.java:85)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:36)
+at com.sun.proxy.$Proxy10.size(Unknown Source)
+at Pages.AdsHandling.checkAdsAppear(AdsHandling.java:23)
+at test.TestLoginWithPin.validate_AdsAppear(TestLoginWithPin.java:44)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selectMediaToUnhide -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.TestUnhidePhotos@2781e022]" name="tearDown" is-config="true" duration-ms="4136" started-at="2021-01-26T18:56:00 PKT" finished-at="2021-01-26T18:56:04 PKT">
+        </test-method> <!-- validate_AdsAppear -->
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:test.TestLoginWithPin@15de0b3c]" name="tearDown" is-config="true" duration-ms="162" started-at="2021-01-27T17:37:09 PKT" finished-at="2021-01-27T17:37:09 PKT">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id (A session is either terminated or not started (2cd388e1-ba9f-4dee-8080-0c01f88b7a4c), A session could be terminated due to the end of timeout specified by newCommandTimeout https://docs.experitest.com/display/AS/Timeout+Capabilities)  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'FARIZ-PC', ip: '192.168.79.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appBuildVersion: , appPackage: com.newsoftwares.folderlock_v1, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: true, autoWebview: false, browserName: , commandTimeouts: 120000, desired: {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appPackage: com.newsoftwares.folderlock_v1, autoGrantPermissions: true, browserName: , deviceName: SM-A515F, fullReset: false, noReset: true, platformName: Android, platformVersion: 10}, device.category: PHONE, device.majorVersion: 10, device.manufacture: samsung, device.model: SM-A515F, device.name: SM-A515F, device.os: Android, device.screenSize: 1080x2400, device.serialNumber: R58N20PLGPY, device.version: 10, deviceName: SM-A515F, deviceUDID: R58N20PLGPY, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: true, platform: ANDROID, platformName: Android, platformVersion: 10, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Fariz Anjum\appium..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 01/27/21 05:33 PM, udid: R58N20PLGPY, useKeystore: false, waitForDeviceTimeout: 120000}
+Session ID: 2cd388e1-ba9f-4dee-8080-0c01f88b7a4c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id (A session is either terminated or not started (2cd388e1-ba9f-4dee-8080-0c01f88b7a4c), A session could be terminated due to the end of timeout specified by newCommandTimeout https://docs.experitest.com/display/AS/Timeout+Capabilities)  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'FARIZ-PC', ip: '192.168.79.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appBuildVersion: , appPackage: com.newsoftwares.folderlock_v1, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: true, autoWebview: false, browserName: , commandTimeouts: 120000, desired: {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appPackage: com.newsoftwares.folderlock_v1, autoGrantPermissions: true, browserName: , deviceName: SM-A515F, fullReset: false, noReset: true, platformName: Android, platformVersion: 10}, device.category: PHONE, device.majorVersion: 10, device.manufacture: samsung, device.model: SM-A515F, device.name: SM-A515F, device.os: Android, device.screenSize: 1080x2400, device.serialNumber: R58N20PLGPY, device.version: 10, deviceName: SM-A515F, deviceUDID: R58N20PLGPY, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: true, platform: ANDROID, platformName: Android, platformVersion: 10, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Fariz Anjum\appium..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 01/27/21 05:33 PM, udid: R58N20PLGPY, useKeystore: false, waitForDeviceTimeout: 120000}
+Session ID: 2cd388e1-ba9f-4dee-8080-0c01f88b7a4c
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:45)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+at test.BaseClass.tearDown(BaseClass.java:44)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:351)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- test.TestUnhidePhotos -->
+      </class> <!-- test.TestLoginWithPin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

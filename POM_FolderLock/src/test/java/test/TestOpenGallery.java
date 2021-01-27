@@ -3,7 +3,6 @@ package test;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
-
 import Pages.CheckMediaInDevice;
 import Pages.HideImagesFromGallery;
 

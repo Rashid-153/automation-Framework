@@ -7,10 +7,24 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="test.TestOpenPhotos">
+        <methods>
+          <include name="validate_ImagesFoundOnDevice"/>
+          <include name="validate_ImageFolder_Open"/>
+          <include name="setup"/>
+          <include name="validate_GalleryTitle_Correct"/>
+          <include name="validate_PlusButton_Working"/>
+          <include name="tearDown"/>
+          <include name="validate_ImportFromGalleryBtn_Working"/>
+        </methods>
+      </class> <!-- test.TestOpenPhotos -->
       <class name="test.TestVerifyHidePhotos">
         <methods>
           <include name="Validate_All_ImagesUpladed"/>
+          <include name="Validate_CountImages"/>
+          <include name="Validate_HideButton_working"/>
           <include name="setup"/>
+          <include name="Validate_ImagesSelected"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- test.TestVerifyHidePhotos -->

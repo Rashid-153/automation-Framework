@@ -15,6 +15,8 @@ public class TestOpenPhotos extends BaseClass {
 	CreateFolder createNewFolder;
 	OpenFolder clickOnFolder;
 	
+	
+	
 
 	@Test(priority = 1)
 	public void validate_ClickOnPhotosSection() {
