@@ -18,5 +18,6 @@ public class HideButton {
 
 	public void clickOnHideButton() {
 		btnHideMedia.click();
+		int a=2;
 	}
 }
