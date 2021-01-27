@@ -24,6 +24,7 @@ public class TestUnhidePhotos extends BaseClass{
 	public void verify_UnhideBtnWorking() {
 		unhidebtn=new UnhideButton(driver);
 		unhidebtn.clickOnUnhideButton();
+		unhidebtn.clickOnYes();
 		Reporter.log("Unhide button working fine");
 		
 	}
