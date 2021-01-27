@@ -24,10 +24,10 @@ public class BaseClass {
 		
 		dc = new DesiredCapabilities();
 		
-		dc.setCapability(MobileCapabilityType.DEVICE_NAME, "SM-G950U");
-		//dc.setCapability(MobileCapabilityType.DEVICE_NAME, "SM-A515F");
+		//dc.setCapability(MobileCapabilityType.DEVICE_NAME, "SM-G950U");
+		dc.setCapability(MobileCapabilityType.DEVICE_NAME, "SM-A515F");
 		dc.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
-		dc.setCapability(MobileCapabilityType.PLATFORM_VERSION, "9");
+		dc.setCapability(MobileCapabilityType.PLATFORM_VERSION, "10");
 		dc.setCapability(MobileCapabilityType.BROWSER_NAME, "");
 	    dc.setCapability(MobileCapabilityType.APP,"C:\\Users\\Fariz Anjum\\Desktop\\folder lock(ANDR)\\folderLockv1-release-vn-2.5.8-vc-112.apk");
 		dc.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "com.newsoftwares.folderlock_v1");
