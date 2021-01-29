@@ -8,124 +8,37 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">215,552</td><td></td><td></td></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">27</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">54,334</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">test.TestLoginWithPin</td><td><a href="#m0">tearDown</a></td><td rowspan="1">1611751029205</td><td rowspan="1">162</td></tr><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">test.TestLoginWithPin</td><td><a href="#m1">validate_AdsAppear</a></td><td rowspan="1">1611750817168</td><td rowspan="1">201909</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">test.TestLoginWithPin</td><td><a href="#m2">validate_DashboardApear_Correct</a></td><td rowspan="1">1611750813651</td><td rowspan="1">3516</td></tr><tr class="passedeven"><td><a href="#m3">validate_pin_working_correct</a></td><td rowspan="1">1611750809312</td><td rowspan="1">1099</td></tr><tr class="passedeven"><td><a href="#m4">validate_ratingPopUpSkiped</a></td><td rowspan="1">1611750810417</td><td rowspan="1">3233</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">test.PhotosSection.TestBackButton</td><td><a href="#m0">pressBackButton</a></td><td rowspan="1">1611920080963</td><td rowspan="1">2977</td></tr><tr class="passedodd"><td rowspan="3">test.PhotosSection.TestCreateNewAlbum</td><td><a href="#m1">validate_FolderIsOpen</a></td><td rowspan="1">1611920054453</td><td rowspan="1">1452</td></tr><tr class="passedodd"><td><a href="#m2">validate_FolderTitle_correct</a></td><td rowspan="1">1611920055906</td><td rowspan="1">1324</td></tr><tr class="passedodd"><td><a href="#m3">validate_NewFolderCreated</a></td><td rowspan="1">1611920050914</td><td rowspan="1">3538</td></tr><tr class="passedeven"><td rowspan="2">test.PhotosSection.TestDeletePhotos</td><td><a href="#m4">VerifyImageSelected</a></td><td rowspan="1">1611920069272</td><td rowspan="1">2960</td></tr><tr class="passedeven"><td><a href="#m5">VeryDeletePhotosBtn_working</a></td><td rowspan="1">1611920072233</td><td rowspan="1">1642</td></tr><tr class="passedodd"><td rowspan="4">test.PhotosSection.TestEditAlbum</td><td><a href="#m6">clickOnEditAlbum</a></td><td rowspan="1">1611920041373</td><td rowspan="1">1297</td></tr><tr class="passedodd"><td><a href="#m7">validate_NewFolderCreated</a></td><td rowspan="1">1611920037811</td><td rowspan="1">3561</td></tr><tr class="passedodd"><td><a href="#m8">varify_AlbumDeleteWorking</a></td><td rowspan="1">1611920047216</td><td rowspan="1">3697</td></tr><tr class="passedodd"><td><a href="#m9">varify_AlbumRenameWorking</a></td><td rowspan="1">1611920042671</td><td rowspan="1">4544</td></tr><tr class="passedeven"><td rowspan="3">test.PhotosSection.TestLoginWithPin</td><td><a href="#m10">validate_DashboardApear_Correct</a></td><td rowspan="1">1611920032795</td><td rowspan="1">1555</td></tr><tr class="passedeven"><td><a href="#m11">validate_pin_working_correct</a></td><td rowspan="1">1611920029637</td><td rowspan="1">656</td></tr><tr class="passedeven"><td><a href="#m12">validate_ratingPopUpSkiped</a></td><td rowspan="1">1611920030300</td><td rowspan="1">2493</td></tr><tr class="passedodd"><td rowspan="5">test.PhotosSection.TestOpenGallery</td><td><a href="#m13">validate_GalleryTitle_Correct</a></td><td rowspan="1">1611920059011</td><td rowspan="1">1174</td></tr><tr class="passedodd"><td><a href="#m14">validate_ImageFolder_Open</a></td><td rowspan="1">1611920061416</td><td rowspan="1">586</td></tr><tr class="passedodd"><td><a href="#m15">validate_ImagesFoundOnDevice</a></td><td rowspan="1">1611920060186</td><td rowspan="1">1229</td></tr><tr class="passedodd"><td><a href="#m16">validate_ImportFromGalleryBtn_Working</a></td><td rowspan="1">1611920057641</td><td rowspan="1">1368</td></tr><tr class="passedodd"><td><a href="#m17">validate_PlusButton_Working</a></td><td rowspan="1">1611920057231</td><td rowspan="1">409</td></tr><tr class="passedeven"><td rowspan="3">test.PhotosSection.TestOpenPhotos</td><td><a href="#m18">validate_ClickOnPhotosSection</a></td><td rowspan="1">1611920034352</td><td rowspan="1">1237</td></tr><tr class="passedeven"><td><a href="#m19">validate_PhotosPageTitle_correct</a></td><td rowspan="1">1611920037364</td><td rowspan="1">445</td></tr><tr class="passedeven"><td><a href="#m20">validate_TutorialPopUpSkipped</a></td><td rowspan="1">1611920035591</td><td rowspan="1">1772</td></tr><tr class="passedodd"><td rowspan="2">test.PhotosSection.TestUnhidePhotos</td><td><a href="#m21">verify_MediaSelectedToUnhide</a></td><td rowspan="1">1611920073876</td><td rowspan="1">5093</td></tr><tr class="passedodd"><td><a href="#m22">verify_UnhideBtnWorking</a></td><td rowspan="1">1611920078970</td><td rowspan="1">1992</td></tr><tr class="passedeven"><td rowspan="4">test.PhotosSection.TestVerifyHidePhotos</td><td><a href="#m23">Validate_All_ImagesUpladed</a></td><td rowspan="1">1611920067596</td><td rowspan="1">1675</td></tr><tr class="passedeven"><td><a href="#m24">Validate_CountImages</a></td><td rowspan="1">1611920062003</td><td rowspan="1">1999</td></tr><tr class="passedeven"><td><a href="#m25">Validate_HideButton_working</a></td><td rowspan="1">1611920066557</td><td rowspan="1">1037</td></tr><tr class="passedeven"><td><a href="#m26">Validate_ImagesSelected</a></td><td rowspan="1">1611920064003</td><td rowspan="1">2553</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">test.TestLoginWithPin#tearDown</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: invalid session id (A session is either terminated or not started (2cd388e1-ba9f-4dee-8080-0c01f88b7a4c), A session could be terminated due to the end of timeout specified by newCommandTimeout https://docs.experitest.com/display/AS/Timeout+Capabilities)  (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;FARIZ-PC&apos;, ip: &apos;192.168.79.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appBuildVersion: , appPackage: com.newsoftwares.folderlock_v1, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: true, autoWebview: false, browserName: , commandTimeouts: 120000, desired: {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appPackage: com.newsoftwares.folderlock_v1, autoGrantPermissions: true, browserName: , deviceName: SM-A515F, fullReset: false, noReset: true, platformName: Android, platformVersion: 10}, device.category: PHONE, device.majorVersion: 10, device.manufacture: samsung, device.model: SM-A515F, device.name: SM-A515F, device.os: Android, device.screenSize: 1080x2400, device.serialNumber: R58N20PLGPY, device.version: 10, deviceName: SM-A515F, deviceUDID: R58N20PLGPY, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: true, platform: ANDROID, platformName: Android, platformVersion: 10, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Fariz Anjum\appium..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 01/27/21 05:33 PM, udid: R58N20PLGPY, useKeystore: false, waitForDeviceTimeout: 120000}
-Session ID: 2cd388e1-ba9f-4dee-8080-0c01f88b7a4c
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:45)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
-	at test.BaseClass.tearDown(BaseClass.java:44)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:351)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">test.TestLoginWithPin#validate_AdsAppear</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: invalid session id (A session is either terminated or not started (2cd388e1-ba9f-4dee-8080-0c01f88b7a4c), A session could be terminated due to the end of timeout specified by newCommandTimeout https://docs.experitest.com/display/AS/Timeout+Capabilities)  (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;FARIZ-PC&apos;, ip: &apos;192.168.79.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appBuildVersion: , appPackage: com.newsoftwares.folderlock_v1, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: true, autoWebview: false, browserName: , commandTimeouts: 120000, desired: {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appPackage: com.newsoftwares.folderlock_v1, autoGrantPermissions: true, browserName: , deviceName: SM-A515F, fullReset: false, noReset: true, platformName: Android, platformVersion: 10}, device.category: PHONE, device.majorVersion: 10, device.manufacture: samsung, device.model: SM-A515F, device.name: SM-A515F, device.os: Android, device.screenSize: 1080x2400, device.serialNumber: R58N20PLGPY, device.version: 10, deviceName: SM-A515F, deviceUDID: R58N20PLGPY, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: true, platform: ANDROID, platformName: Android, platformVersion: 10, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Fariz Anjum\appium..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 01/27/21 05:33 PM, udid: R58N20PLGPY, useKeystore: false, waitForDeviceTimeout: 120000}
-Session ID: 2cd388e1-ba9f-4dee-8080-0c01f88b7a4c
-*** Element info: {Using=class name, value=android.webkit.WebView}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:53)
-	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:179)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByClassName(RemoteWebDriver.java:416)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElementsByClassName(DefaultGenericMobileDriver.java:129)
-	at io.appium.java_client.AppiumDriver.findElementsByClassName(AppiumDriver.java:204)
-	at org.openqa.selenium.By$ByClassName.findElements(By.java:380)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:49)
-	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:174)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElements(DefaultElementLocator.java:85)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:36)
-	at com.sun.proxy.$Proxy10.size(Unknown Source)
-	at Pages.AdsHandling.checkAdsAppear(AdsHandling.java:23)
-	at test.TestLoginWithPin.validate_AdsAppear(TestLoginWithPin.java:44)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(Unknown Source)
-	at org.testng.TestRunner.privateRun(TestRunner.java:764)
-	at org.testng.TestRunner.run(TestRunner.java:585)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">test.TestLoginWithPin#validate_DashboardApear_Correct</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Dashoard Title 'Folder Lock' is correct</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">test.TestLoginWithPin#validate_pin_working_correct</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Pin Enter into text box successfully</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">test.TestLoginWithPin#validate_ratingPopUpSkiped</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Rating PopUp skipped</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">test.PhotosSection.TestBackButton#pressBackButton</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Press back button two time to go back main screen</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">test.PhotosSection.TestCreateNewAlbum#validate_FolderIsOpen</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Folder Open succesfully</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">test.PhotosSection.TestCreateNewAlbum#validate_FolderTitle_correct</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">'AutoCreate' title same as expected</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">test.PhotosSection.TestCreateNewAlbum#validate_NewFolderCreated</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">'AutoCreate' Folder created successfully</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">test.PhotosSection.TestDeletePhotos#VerifyImageSelected</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Image Selected</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">test.PhotosSection.TestDeletePhotos#VeryDeletePhotosBtn_working</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Delete Button Working (Deleted)</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">test.PhotosSection.TestEditAlbum#clickOnEditAlbum</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Edit Album button working</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">test.PhotosSection.TestEditAlbum#validate_NewFolderCreated</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">'AutoCreate' Folder created successfully</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">test.PhotosSection.TestEditAlbum#varify_AlbumDeleteWorking</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Album Delete button Working</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">test.PhotosSection.TestEditAlbum#varify_AlbumRenameWorking</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Album Rename working</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">test.PhotosSection.TestLoginWithPin#validate_DashboardApear_Correct</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Dashoard Title 'Folder Lock' is correct</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">test.PhotosSection.TestLoginWithPin#validate_pin_working_correct</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Pin Enter into text box successfully</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">test.PhotosSection.TestLoginWithPin#validate_ratingPopUpSkiped</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Rating PopUp skipped</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">test.PhotosSection.TestOpenGallery#validate_GalleryTitle_Correct</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Open Gallery Title of image Library is correct</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">test.PhotosSection.TestOpenGallery#validate_ImageFolder_Open</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Use FolderLock Unhide Files Folder for uploading images</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">test.PhotosSection.TestOpenGallery#validate_ImagesFoundOnDevice</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Total Folder : 1</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">test.PhotosSection.TestOpenGallery#validate_ImportFromGalleryBtn_Working</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">import From gallery working</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">test.PhotosSection.TestOpenGallery#validate_PlusButton_Working</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Import Plus Button Working fine</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">test.PhotosSection.TestOpenPhotos#validate_ClickOnPhotosSection</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Photos Section open succesfully</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">test.PhotosSection.TestOpenPhotos#validate_PhotosPageTitle_correct</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Title Equal as per Expected</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">test.PhotosSection.TestOpenPhotos#validate_TutorialPopUpSkipped</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Rating PopUp Does't Appear</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">test.PhotosSection.TestUnhidePhotos#verify_MediaSelectedToUnhide</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">All Images are selected</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m22">test.PhotosSection.TestUnhidePhotos#verify_UnhideBtnWorking</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Unhide button working fine</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m23">test.PhotosSection.TestVerifyHidePhotos#Validate_All_ImagesUpladed</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Uploaded Images :3</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m24">test.PhotosSection.TestVerifyHidePhotos#Validate_CountImages</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">before upload :3</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m25">test.PhotosSection.TestVerifyHidePhotos#Validate_HideButton_working</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Hide buttton working</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m26">test.PhotosSection.TestVerifyHidePhotos#Validate_ImagesSelected</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">All images selected</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

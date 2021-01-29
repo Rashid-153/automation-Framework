@@ -12,7 +12,8 @@ import org.openqa.selenium.WebDriver;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import org.testng.Reporter;
-import test.BaseClass;
+
+import test.PhotosSection.BaseClass;
 
 
 public class Listener extends BaseClass implements ITestListener {

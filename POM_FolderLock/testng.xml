@@ -9,9 +9,15 @@
 </listeners>
   <test name="Test">
     <classes>
-    <class name="test.TestLoginWithPin"/>
-      <class name="test.TestOpenPhotos"/>
-      <class name="test.TestVerifyHidePhotos"/>
+    <class name="test.PhotosSection.TestLoginWithPin"/>
+      <class name="test.PhotosSection.TestOpenPhotos"/>
+      <class name="test.PhotosSection.TestEditAlbum"/>
+      <class name="test.PhotosSection.TestCreateNewAlbum"/>
+       <class name="test.PhotosSection.TestOpenGallery"/>
+      <class name="test.PhotosSection.TestVerifyHidePhotos"/>
+      <class name="test.PhotosSection.TestDeletePhotos"/>
+       <class name="test.PhotosSection.TestUnhidePhotos"/>
+    <class name="test.PhotosSection.TestBackButton"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

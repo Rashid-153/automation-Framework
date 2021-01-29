@@ -7,27 +7,50 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="test.TestOpenPhotos">
+      <class name="test.PhotosSection.TestBackButton">
         <methods>
-          <include name="validate_ImagesFoundOnDevice"/>
-          <include name="validate_ImageFolder_Open"/>
+          <include name="pressBackButton"/>
+          <include name="tearDown"/>
           <include name="setup"/>
+        </methods>
+      </class> <!-- test.PhotosSection.TestBackButton -->
+      <class name="test.PhotosSection.TestOpenGallery">
+        <methods>
           <include name="validate_GalleryTitle_Correct"/>
+          <include name="validate_ImageFolder_Open"/>
           <include name="validate_PlusButton_Working"/>
           <include name="tearDown"/>
+          <include name="validate_ImagesFoundOnDevice"/>
           <include name="validate_ImportFromGalleryBtn_Working"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- test.TestOpenPhotos -->
-      <class name="test.TestVerifyHidePhotos">
+      </class> <!-- test.PhotosSection.TestOpenGallery -->
+      <class name="test.PhotosSection.TestDeletePhotos">
         <methods>
+          <include name="VerifyImageSelected"/>
+          <include name="VeryDeletePhotosBtn_working"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- test.PhotosSection.TestDeletePhotos -->
+      <class name="test.PhotosSection.TestVerifyHidePhotos">
+        <methods>
+          <include name="Validate_HideButton_working"/>
           <include name="Validate_All_ImagesUpladed"/>
           <include name="Validate_CountImages"/>
-          <include name="Validate_HideButton_working"/>
-          <include name="setup"/>
-          <include name="Validate_ImagesSelected"/>
           <include name="tearDown"/>
+          <include name="Validate_ImagesSelected"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- test.TestVerifyHidePhotos -->
+      </class> <!-- test.PhotosSection.TestVerifyHidePhotos -->
+      <class name="test.PhotosSection.TestUnhidePhotos">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verify_MediaSelectedToUnhide"/>
+          <include name="verify_UnhideBtnWorking"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- test.PhotosSection.TestUnhidePhotos -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

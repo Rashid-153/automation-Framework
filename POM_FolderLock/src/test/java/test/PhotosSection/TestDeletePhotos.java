@@ -1,5 +1,6 @@
-package test;
+package test.PhotosSection;
 
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import Pages.BtnSelectAll;
@@ -12,16 +13,17 @@ public class TestDeletePhotos extends BaseClass{
 	BtnDelete BtnDelete;
 	
 	@Test(priority=1)
-	public void VerifyAllPhotos_Selected() {
+	public void VerifyImageSelected() {
 		selectImages=new SelectMedia(driver);
 		selectImages.longPress();
-		BtnUnhide=new BtnSelectAll(driver);
-		BtnUnhide.clickOnSelectAllBtn();
+		Reporter.log("Image Selected");
+		
 	}
 	@Test(priority=2)
-	public void VeryDeletePhotos_working() {
+	public void VeryDeletePhotosBtn_working() {
 		BtnDelete=new BtnDelete(driver);
 		BtnDelete.clickOnDeleteBtn();
+		Reporter.log("Delete Button Working (Deleted)");
 	}
 	
 

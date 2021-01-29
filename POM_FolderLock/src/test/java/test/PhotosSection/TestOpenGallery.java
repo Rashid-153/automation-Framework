@@ -1,4 +1,4 @@
-package test;
+package test.PhotosSection;
 
 import org.testng.Assert;
 import org.testng.Reporter;

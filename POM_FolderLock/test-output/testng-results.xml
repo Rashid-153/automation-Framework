@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+<testng-results skipped="0" failed="0" ignored="16" total="43" passed="27">
   <reporter-output>
     <line>
       <![CDATA[Pin Enter into text box successfully]]>
@@ -10,184 +10,298 @@
     <line>
       <![CDATA[Dashoard Title 'Folder Lock' is correct]]>
     </line>
+    <line>
+      <![CDATA[Photos Section open succesfully]]>
+    </line>
+    <line>
+      <![CDATA[Rating PopUp Does't Appear]]>
+    </line>
+    <line>
+      <![CDATA[Title Equal as per Expected]]>
+    </line>
+    <line>
+      <![CDATA['AutoCreate' Folder created successfully]]>
+    </line>
+    <line>
+      <![CDATA[Edit Album button working]]>
+    </line>
+    <line>
+      <![CDATA[Album Rename working]]>
+    </line>
+    <line>
+      <![CDATA[Album Delete button Working]]>
+    </line>
+    <line>
+      <![CDATA['AutoCreate' Folder created successfully]]>
+    </line>
+    <line>
+      <![CDATA[Folder Open succesfully]]>
+    </line>
+    <line>
+      <![CDATA['AutoCreate' title same as expected]]>
+    </line>
+    <line>
+      <![CDATA[Import Plus Button Working fine]]>
+    </line>
+    <line>
+      <![CDATA[import From gallery working]]>
+    </line>
+    <line>
+      <![CDATA[Open Gallery Title of image Library is correct]]>
+    </line>
+    <line>
+      <![CDATA[Total Folder : 1]]>
+    </line>
+    <line>
+      <![CDATA[Use FolderLock Unhide Files Folder for uploading images]]>
+    </line>
+    <line>
+      <![CDATA[before upload :3]]>
+    </line>
+    <line>
+      <![CDATA[All images selected]]>
+    </line>
+    <line>
+      <![CDATA[Hide buttton working]]>
+    </line>
+    <line>
+      <![CDATA[Uploaded Images :3]]>
+    </line>
+    <line>
+      <![CDATA[Image Selected]]>
+    </line>
+    <line>
+      <![CDATA[Delete Button Working (Deleted)]]>
+    </line>
+    <line>
+      <![CDATA[All Images are selected]]>
+    </line>
+    <line>
+      <![CDATA[Unhide button working fine]]>
+    </line>
+    <line>
+      <![CDATA[Press back button two time to go back main screen]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="215552" started-at="2021-01-27T17:33:29 PKT" finished-at="2021-01-27T17:37:04 PKT">
+  <suite name="Suite" duration-ms="54334" started-at="2021-01-29T16:33:49 PKT" finished-at="2021-01-29T16:34:43 PKT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="215552" started-at="2021-01-27T17:33:29 PKT" finished-at="2021-01-27T17:37:04 PKT">
-      <class name="test.TestLoginWithPin">
-        <test-method status="PASS" signature="setup()[pri:0, instance:test.TestLoginWithPin@15de0b3c]" name="setup" is-config="true" duration-ms="20406" started-at="2021-01-27T17:33:08 PKT" finished-at="2021-01-27T17:33:29 PKT">
+    <test name="Test" duration-ms="54334" started-at="2021-01-29T16:33:49 PKT" finished-at="2021-01-29T16:34:43 PKT">
+      <class name="test.PhotosSection.TestUnhidePhotos">
+        <test-method status="PASS" signature="verify_MediaSelectedToUnhide()[pri:1, instance:test.PhotosSection.TestUnhidePhotos@4c762604]" name="verify_MediaSelectedToUnhide" duration-ms="5093" started-at="2021-01-29T16:34:33 PKT" finished-at="2021-01-29T16:34:38 PKT">
+          <reporter-output>
+            <line>
+              <![CDATA[All Images are selected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_MediaSelectedToUnhide -->
+        <test-method status="PASS" signature="verify_UnhideBtnWorking()[pri:2, instance:test.PhotosSection.TestUnhidePhotos@4c762604]" name="verify_UnhideBtnWorking" duration-ms="1992" started-at="2021-01-29T16:34:38 PKT" finished-at="2021-01-29T16:34:40 PKT">
+          <reporter-output>
+            <line>
+              <![CDATA[Unhide button working fine]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_UnhideBtnWorking -->
+      </class> <!-- test.PhotosSection.TestUnhidePhotos -->
+      <class name="test.PhotosSection.TestVerifyHidePhotos">
+        <test-method status="PASS" signature="Validate_CountImages()[pri:1, instance:test.PhotosSection.TestVerifyHidePhotos@77846d2c]" name="Validate_CountImages" duration-ms="1999" started-at="2021-01-29T16:34:22 PKT" finished-at="2021-01-29T16:34:24 PKT">
+          <reporter-output>
+            <line>
+              <![CDATA[before upload :3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Validate_CountImages -->
+        <test-method status="PASS" signature="Validate_ImagesSelected()[pri:2, instance:test.PhotosSection.TestVerifyHidePhotos@77846d2c]" name="Validate_ImagesSelected" duration-ms="2553" started-at="2021-01-29T16:34:24 PKT" finished-at="2021-01-29T16:34:26 PKT">
+          <reporter-output>
+            <line>
+              <![CDATA[All images selected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Validate_ImagesSelected -->
+        <test-method status="PASS" signature="Validate_HideButton_working()[pri:3, instance:test.PhotosSection.TestVerifyHidePhotos@77846d2c]" name="Validate_HideButton_working" duration-ms="1037" started-at="2021-01-29T16:34:26 PKT" finished-at="2021-01-29T16:34:27 PKT">
+          <reporter-output>
+            <line>
+              <![CDATA[Hide buttton working]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Validate_HideButton_working -->
+        <test-method status="PASS" signature="Validate_All_ImagesUpladed()[pri:4, instance:test.PhotosSection.TestVerifyHidePhotos@77846d2c]" name="Validate_All_ImagesUpladed" duration-ms="1675" started-at="2021-01-29T16:34:27 PKT" finished-at="2021-01-29T16:34:29 PKT">
+          <reporter-output>
+            <line>
+              <![CDATA[Uploaded Images :3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Validate_All_ImagesUpladed -->
+      </class> <!-- test.PhotosSection.TestVerifyHidePhotos -->
+      <class name="test.PhotosSection.TestOpenPhotos">
+        <test-method status="PASS" signature="validate_ClickOnPhotosSection()[pri:1, instance:test.PhotosSection.TestOpenPhotos@78186a70]" name="validate_ClickOnPhotosSection" duration-ms="1237" started-at="2021-01-29T16:33:54 PKT" finished-at="2021-01-29T16:33:55 PKT">
+          <reporter-output>
+            <line>
+              <![CDATA[Photos Section open succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validate_ClickOnPhotosSection -->
+        <test-method status="PASS" signature="validate_TutorialPopUpSkipped()[pri:2, instance:test.PhotosSection.TestOpenPhotos@78186a70]" name="validate_TutorialPopUpSkipped" duration-ms="1772" started-at="2021-01-29T16:33:55 PKT" finished-at="2021-01-29T16:33:57 PKT">
+          <reporter-output>
+            <line>
+              <![CDATA[Rating PopUp Does't Appear]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validate_TutorialPopUpSkipped -->
+        <test-method status="PASS" signature="validate_PhotosPageTitle_correct()[pri:3, instance:test.PhotosSection.TestOpenPhotos@78186a70]" name="validate_PhotosPageTitle_correct" duration-ms="445" started-at="2021-01-29T16:33:57 PKT" finished-at="2021-01-29T16:33:57 PKT">
+          <reporter-output>
+            <line>
+              <![CDATA[Title Equal as per Expected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validate_PhotosPageTitle_correct -->
+      </class> <!-- test.PhotosSection.TestOpenPhotos -->
+      <class name="test.PhotosSection.TestDeletePhotos">
+        <test-method status="PASS" signature="VerifyImageSelected()[pri:1, instance:test.PhotosSection.TestDeletePhotos@548ad73b]" name="VerifyImageSelected" duration-ms="2960" started-at="2021-01-29T16:34:29 PKT" finished-at="2021-01-29T16:34:32 PKT">
+          <reporter-output>
+            <line>
+              <![CDATA[Image Selected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyImageSelected -->
+        <test-method status="PASS" signature="VeryDeletePhotosBtn_working()[pri:2, instance:test.PhotosSection.TestDeletePhotos@548ad73b]" name="VeryDeletePhotosBtn_working" duration-ms="1642" started-at="2021-01-29T16:34:32 PKT" finished-at="2021-01-29T16:34:33 PKT">
+          <reporter-output>
+            <line>
+              <![CDATA[Delete Button Working (Deleted)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VeryDeletePhotosBtn_working -->
+      </class> <!-- test.PhotosSection.TestDeletePhotos -->
+      <class name="test.PhotosSection.TestOpenGallery">
+        <test-method status="PASS" signature="validate_PlusButton_Working()[pri:1, instance:test.PhotosSection.TestOpenGallery@4cf4d528]" name="validate_PlusButton_Working" duration-ms="409" started-at="2021-01-29T16:34:17 PKT" finished-at="2021-01-29T16:34:17 PKT">
+          <reporter-output>
+            <line>
+              <![CDATA[Import Plus Button Working fine]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validate_PlusButton_Working -->
+        <test-method status="PASS" signature="validate_ImportFromGalleryBtn_Working()[pri:2, instance:test.PhotosSection.TestOpenGallery@4cf4d528]" name="validate_ImportFromGalleryBtn_Working" duration-ms="1368" started-at="2021-01-29T16:34:17 PKT" finished-at="2021-01-29T16:34:19 PKT">
+          <reporter-output>
+            <line>
+              <![CDATA[import From gallery working]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validate_ImportFromGalleryBtn_Working -->
+        <test-method status="PASS" signature="validate_GalleryTitle_Correct()[pri:3, instance:test.PhotosSection.TestOpenGallery@4cf4d528]" name="validate_GalleryTitle_Correct" duration-ms="1174" started-at="2021-01-29T16:34:19 PKT" finished-at="2021-01-29T16:34:20 PKT">
+          <reporter-output>
+            <line>
+              <![CDATA[Open Gallery Title of image Library is correct]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validate_GalleryTitle_Correct -->
+        <test-method status="PASS" signature="validate_ImagesFoundOnDevice()[pri:4, instance:test.PhotosSection.TestOpenGallery@4cf4d528]" name="validate_ImagesFoundOnDevice" duration-ms="1229" started-at="2021-01-29T16:34:20 PKT" finished-at="2021-01-29T16:34:21 PKT">
+          <reporter-output>
+            <line>
+              <![CDATA[Total Folder : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validate_ImagesFoundOnDevice -->
+        <test-method status="PASS" signature="validate_ImageFolder_Open()[pri:5, instance:test.PhotosSection.TestOpenGallery@4cf4d528]" name="validate_ImageFolder_Open" duration-ms="586" started-at="2021-01-29T16:34:21 PKT" depends-on-methods="test.PhotosSection.TestOpenGallery.validate_ImagesFoundOnDevice" finished-at="2021-01-29T16:34:22 PKT">
+          <reporter-output>
+            <line>
+              <![CDATA[Use FolderLock Unhide Files Folder for uploading images]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validate_ImageFolder_Open -->
+      </class> <!-- test.PhotosSection.TestOpenGallery -->
+      <class name="test.PhotosSection.TestCreateNewAlbum">
+        <test-method status="PASS" signature="validate_NewFolderCreated()[pri:1, instance:test.PhotosSection.TestCreateNewAlbum@545997b1]" name="validate_NewFolderCreated" duration-ms="3538" started-at="2021-01-29T16:34:10 PKT" finished-at="2021-01-29T16:34:14 PKT">
+          <reporter-output>
+            <line>
+              <![CDATA['AutoCreate' Folder created successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validate_NewFolderCreated -->
+        <test-method status="PASS" signature="validate_FolderIsOpen()[pri:2, instance:test.PhotosSection.TestCreateNewAlbum@545997b1]" name="validate_FolderIsOpen" duration-ms="1452" started-at="2021-01-29T16:34:14 PKT" finished-at="2021-01-29T16:34:15 PKT">
+          <reporter-output>
+            <line>
+              <![CDATA[Folder Open succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validate_FolderIsOpen -->
+        <test-method status="PASS" signature="validate_FolderTitle_correct()[pri:3, instance:test.PhotosSection.TestCreateNewAlbum@545997b1]" name="validate_FolderTitle_correct" duration-ms="1324" started-at="2021-01-29T16:34:15 PKT" finished-at="2021-01-29T16:34:17 PKT">
+          <reporter-output>
+            <line>
+              <![CDATA['AutoCreate' title same as expected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validate_FolderTitle_correct -->
+      </class> <!-- test.PhotosSection.TestCreateNewAlbum -->
+      <class name="test.PhotosSection.TestBackButton">
+        <test-method status="PASS" signature="pressBackButton()[pri:0, instance:test.PhotosSection.TestBackButton@2641e737]" name="pressBackButton" duration-ms="2977" started-at="2021-01-29T16:34:40 PKT" finished-at="2021-01-29T16:34:43 PKT">
+          <reporter-output>
+            <line>
+              <![CDATA[Press back button two time to go back main screen]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- pressBackButton -->
+      </class> <!-- test.PhotosSection.TestBackButton -->
+      <class name="test.PhotosSection.TestEditAlbum">
+        <test-method status="PASS" signature="validate_NewFolderCreated()[pri:1, instance:test.PhotosSection.TestEditAlbum@306279ee]" name="validate_NewFolderCreated" duration-ms="3561" started-at="2021-01-29T16:33:57 PKT" finished-at="2021-01-29T16:34:01 PKT">
+          <reporter-output>
+            <line>
+              <![CDATA['AutoCreate' Folder created successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validate_NewFolderCreated -->
+        <test-method status="PASS" signature="clickOnEditAlbum()[pri:2, instance:test.PhotosSection.TestEditAlbum@306279ee]" name="clickOnEditAlbum" duration-ms="1297" started-at="2021-01-29T16:34:01 PKT" finished-at="2021-01-29T16:34:02 PKT">
+          <reporter-output>
+            <line>
+              <![CDATA[Edit Album button working]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickOnEditAlbum -->
+        <test-method status="PASS" signature="varify_AlbumRenameWorking()[pri:3, instance:test.PhotosSection.TestEditAlbum@306279ee]" name="varify_AlbumRenameWorking" duration-ms="4544" started-at="2021-01-29T16:34:02 PKT" finished-at="2021-01-29T16:34:07 PKT">
+          <reporter-output>
+            <line>
+              <![CDATA[Album Rename working]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- varify_AlbumRenameWorking -->
+        <test-method status="PASS" signature="varify_AlbumDeleteWorking()[pri:4, instance:test.PhotosSection.TestEditAlbum@306279ee]" name="varify_AlbumDeleteWorking" duration-ms="3697" started-at="2021-01-29T16:34:07 PKT" finished-at="2021-01-29T16:34:10 PKT">
+          <reporter-output>
+            <line>
+              <![CDATA[Album Delete button Working]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- varify_AlbumDeleteWorking -->
+      </class> <!-- test.PhotosSection.TestEditAlbum -->
+      <class name="test.PhotosSection.TestLoginWithPin">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.PhotosSection.TestLoginWithPin@481a15ff]" name="setup" is-config="true" duration-ms="8893" started-at="2021-01-29T16:33:40 PKT" finished-at="2021-01-29T16:33:49 PKT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validate_pin_working_correct()[pri:1, instance:test.TestLoginWithPin@15de0b3c]" name="validate_pin_working_correct" duration-ms="1099" started-at="2021-01-27T17:33:29 PKT" finished-at="2021-01-27T17:33:30 PKT">
+        <test-method status="PASS" signature="validate_pin_working_correct()[pri:1, instance:test.PhotosSection.TestLoginWithPin@481a15ff]" name="validate_pin_working_correct" duration-ms="656" started-at="2021-01-29T16:33:49 PKT" finished-at="2021-01-29T16:33:50 PKT">
           <reporter-output>
             <line>
               <![CDATA[Pin Enter into text box successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- validate_pin_working_correct -->
-        <test-method status="PASS" signature="validate_ratingPopUpSkiped()[pri:2, instance:test.TestLoginWithPin@15de0b3c]" name="validate_ratingPopUpSkiped" duration-ms="3233" started-at="2021-01-27T17:33:30 PKT" finished-at="2021-01-27T17:33:33 PKT">
+        <test-method status="PASS" signature="validate_ratingPopUpSkiped()[pri:2, instance:test.PhotosSection.TestLoginWithPin@481a15ff]" name="validate_ratingPopUpSkiped" duration-ms="2493" started-at="2021-01-29T16:33:50 PKT" finished-at="2021-01-29T16:33:52 PKT">
           <reporter-output>
             <line>
               <![CDATA[Rating PopUp skipped]]>
             </line>
           </reporter-output>
         </test-method> <!-- validate_ratingPopUpSkiped -->
-        <test-method status="PASS" signature="validate_DashboardApear_Correct()[pri:3, instance:test.TestLoginWithPin@15de0b3c]" name="validate_DashboardApear_Correct" duration-ms="3516" started-at="2021-01-27T17:33:33 PKT" finished-at="2021-01-27T17:33:37 PKT">
+        <test-method status="PASS" signature="validate_DashboardApear_Correct()[pri:3, instance:test.PhotosSection.TestLoginWithPin@481a15ff]" name="validate_DashboardApear_Correct" duration-ms="1555" started-at="2021-01-29T16:33:52 PKT" finished-at="2021-01-29T16:33:54 PKT">
           <reporter-output>
             <line>
               <![CDATA[Dashoard Title 'Folder Lock' is correct]]>
             </line>
           </reporter-output>
         </test-method> <!-- validate_DashboardApear_Correct -->
-        <test-method status="FAIL" signature="validate_AdsAppear()[pri:4, instance:test.TestLoginWithPin@15de0b3c]" name="validate_AdsAppear" duration-ms="201909" started-at="2021-01-27T17:33:37 PKT" finished-at="2021-01-27T17:36:59 PKT">
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[invalid session id (A session is either terminated or not started (2cd388e1-ba9f-4dee-8080-0c01f88b7a4c), A session could be terminated due to the end of timeout specified by newCommandTimeout https://docs.experitest.com/display/AS/Timeout+Capabilities)  (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'FARIZ-PC', ip: '192.168.79.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appBuildVersion: , appPackage: com.newsoftwares.folderlock_v1, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: true, autoWebview: false, browserName: , commandTimeouts: 120000, desired: {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appPackage: com.newsoftwares.folderlock_v1, autoGrantPermissions: true, browserName: , deviceName: SM-A515F, fullReset: false, noReset: true, platformName: Android, platformVersion: 10}, device.category: PHONE, device.majorVersion: 10, device.manufacture: samsung, device.model: SM-A515F, device.name: SM-A515F, device.os: Android, device.screenSize: 1080x2400, device.serialNumber: R58N20PLGPY, device.version: 10, deviceName: SM-A515F, deviceUDID: R58N20PLGPY, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: true, platform: ANDROID, platformName: Android, platformVersion: 10, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Fariz Anjum\appium..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 01/27/21 05:33 PM, udid: R58N20PLGPY, useKeystore: false, waitForDeviceTimeout: 120000}
-Session ID: 2cd388e1-ba9f-4dee-8080-0c01f88b7a4c
-*** Element info: {Using=class name, value=android.webkit.WebView}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id (A session is either terminated or not started (2cd388e1-ba9f-4dee-8080-0c01f88b7a4c), A session could be terminated due to the end of timeout specified by newCommandTimeout https://docs.experitest.com/display/AS/Timeout+Capabilities)  (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'FARIZ-PC', ip: '192.168.79.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appBuildVersion: , appPackage: com.newsoftwares.folderlock_v1, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: true, autoWebview: false, browserName: , commandTimeouts: 120000, desired: {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appPackage: com.newsoftwares.folderlock_v1, autoGrantPermissions: true, browserName: , deviceName: SM-A515F, fullReset: false, noReset: true, platformName: Android, platformVersion: 10}, device.category: PHONE, device.majorVersion: 10, device.manufacture: samsung, device.model: SM-A515F, device.name: SM-A515F, device.os: Android, device.screenSize: 1080x2400, device.serialNumber: R58N20PLGPY, device.version: 10, deviceName: SM-A515F, deviceUDID: R58N20PLGPY, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: true, platform: ANDROID, platformName: Android, platformVersion: 10, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Fariz Anjum\appium..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 01/27/21 05:33 PM, udid: R58N20PLGPY, useKeystore: false, waitForDeviceTimeout: 120000}
-Session ID: 2cd388e1-ba9f-4dee-8080-0c01f88b7a4c
-*** Element info: {Using=class name, value=android.webkit.WebView}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
-at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:53)
-at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:179)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementsByClassName(RemoteWebDriver.java:416)
-at io.appium.java_client.DefaultGenericMobileDriver.findElementsByClassName(DefaultGenericMobileDriver.java:129)
-at io.appium.java_client.AppiumDriver.findElementsByClassName(AppiumDriver.java:204)
-at org.openqa.selenium.By$ByClassName.findElements(By.java:380)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
-at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:49)
-at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:174)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElements(DefaultElementLocator.java:85)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:36)
-at com.sun.proxy.$Proxy10.size(Unknown Source)
-at Pages.AdsHandling.checkAdsAppear(AdsHandling.java:23)
-at test.TestLoginWithPin.validate_AdsAppear(TestLoginWithPin.java:44)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validate_AdsAppear -->
-        <test-method status="FAIL" signature="tearDown()[pri:0, instance:test.TestLoginWithPin@15de0b3c]" name="tearDown" is-config="true" duration-ms="162" started-at="2021-01-27T17:37:09 PKT" finished-at="2021-01-27T17:37:09 PKT">
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[invalid session id (A session is either terminated or not started (2cd388e1-ba9f-4dee-8080-0c01f88b7a4c), A session could be terminated due to the end of timeout specified by newCommandTimeout https://docs.experitest.com/display/AS/Timeout+Capabilities)  (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'FARIZ-PC', ip: '192.168.79.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appBuildVersion: , appPackage: com.newsoftwares.folderlock_v1, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: true, autoWebview: false, browserName: , commandTimeouts: 120000, desired: {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appPackage: com.newsoftwares.folderlock_v1, autoGrantPermissions: true, browserName: , deviceName: SM-A515F, fullReset: false, noReset: true, platformName: Android, platformVersion: 10}, device.category: PHONE, device.majorVersion: 10, device.manufacture: samsung, device.model: SM-A515F, device.name: SM-A515F, device.os: Android, device.screenSize: 1080x2400, device.serialNumber: R58N20PLGPY, device.version: 10, deviceName: SM-A515F, deviceUDID: R58N20PLGPY, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: true, platform: ANDROID, platformName: Android, platformVersion: 10, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Fariz Anjum\appium..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 01/27/21 05:33 PM, udid: R58N20PLGPY, useKeystore: false, waitForDeviceTimeout: 120000}
-Session ID: 2cd388e1-ba9f-4dee-8080-0c01f88b7a4c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id (A session is either terminated or not started (2cd388e1-ba9f-4dee-8080-0c01f88b7a4c), A session could be terminated due to the end of timeout specified by newCommandTimeout https://docs.experitest.com/display/AS/Timeout+Capabilities)  (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'FARIZ-PC', ip: '192.168.79.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appBuildVersion: , appPackage: com.newsoftwares.folderlock_v1, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: true, autoWebview: false, browserName: , commandTimeouts: 120000, desired: {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appPackage: com.newsoftwares.folderlock_v1, autoGrantPermissions: true, browserName: , deviceName: SM-A515F, fullReset: false, noReset: true, platformName: Android, platformVersion: 10}, device.category: PHONE, device.majorVersion: 10, device.manufacture: samsung, device.model: SM-A515F, device.name: SM-A515F, device.os: Android, device.screenSize: 1080x2400, device.serialNumber: R58N20PLGPY, device.version: 10, deviceName: SM-A515F, deviceUDID: R58N20PLGPY, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: true, platform: ANDROID, platformName: Android, platformVersion: 10, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Fariz Anjum\appium..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 01/27/21 05:33 PM, udid: R58N20PLGPY, useKeystore: false, waitForDeviceTimeout: 120000}
-Session ID: 2cd388e1-ba9f-4dee-8080-0c01f88b7a4c
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:45)
-at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
-at test.BaseClass.tearDown(BaseClass.java:44)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:351)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.PhotosSection.TestLoginWithPin@481a15ff]" name="tearDown" is-config="true" duration-ms="3002" started-at="2021-01-29T16:34:43 PKT" finished-at="2021-01-29T16:34:46 PKT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- test.TestLoginWithPin -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- test.PhotosSection.TestLoginWithPin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
