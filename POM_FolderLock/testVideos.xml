@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Video Suite">
+<listeners>
+
+<listener class-name="Android.customListeners.Listener"></listener>
+<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+
+</listeners>
+  <test name="Test Videos section">
+    <classes>
+     <class name="test.PhotosSection.TestLoginWithPin"/>
+      <class name="test.VideosSection.TestOpenVideos"/>
+      <class name="test.VideosSection.TestEditAlbum"/>
+      <class name="test.VideosSection.TestCreateNewAlbum"/>
+      <class name="test.VideosSection.TestOpenGallery"/>
+      <class name="test.VideosSection.TestHideVideos"/>
+      <class name="test.VideosSection.TestDeleteVideos"/>
+      <class name="test.VideosSection.TestUnhideVideos"/>
+      <class name="test.VideosSection.TestImportFromCamera"/>
+      <class name="test.PhotosSection.TestBackButton"/>
+     </classes>
+  </test> <!-- Test photos section -->
+</suite> <!-- Suite -->

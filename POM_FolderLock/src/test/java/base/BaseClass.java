@@ -1,4 +1,4 @@
-package test.PhotosSection;
+package base;
 
 import java.net.URL;
 import org.openqa.selenium.WebDriver;
@@ -26,7 +26,7 @@ public class BaseClass {
 		dc.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
 		dc.setCapability(MobileCapabilityType.PLATFORM_VERSION, "10");
 		dc.setCapability(MobileCapabilityType.BROWSER_NAME, "");
-	    dc.setCapability(MobileCapabilityType.APP,"C:\\Users\\Fariz Anjum\\Desktop\\folder lock(ANDR)\\folderLockv1-release-vn-2.5.8-vc-112.apk");
+	    dc.setCapability(MobileCapabilityType.APP,"C:\\Users\\Fariz Anjum\\Desktop\\folder lock(ANDR)\\folderLockv1-release-vn-2.5.9-vc-113.apk");
 		dc.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "com.newsoftwares.folderlock_v1");
 		dc.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, ".SplashActvity");
 		dc.setCapability(MobileCapabilityType.NO_RESET,true);

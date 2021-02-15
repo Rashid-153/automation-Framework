@@ -1,0 +1,403 @@
+<html>
+<head>
+<title>TestNG:  Test Photos Section Complete</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test Photos Section Complete</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>27/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Feb 02 15:22:04 PKT 2021</td>
+</tr>
+<tr><td>Total time:</td><td>55 seconds (55630 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.PhotosSection.TestVerifyHidePhotos.Validate_All_ImagesUpladed()'><b>Validate_All_ImagesUpladed</b><br>Test class: test.PhotosSection.TestVerifyHidePhotos<br/>
+<a href="#Output-523211332" onClick='toggleBox("Output-523211332", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-523211332" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-523211332">
+Uploaded Images :4<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>test.PhotosSection.TestVerifyHidePhotos@77846d2c</td></tr>
+<tr>
+<td title='test.PhotosSection.TestVerifyHidePhotos.Validate_CountImages()'><b>Validate_CountImages</b><br>Test class: test.PhotosSection.TestVerifyHidePhotos<br/>
+<a href="#Output-1810518740" onClick='toggleBox("Output-1810518740", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1810518740" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1810518740">
+before upload :4<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>test.PhotosSection.TestVerifyHidePhotos@77846d2c</td></tr>
+<tr>
+<td title='test.PhotosSection.TestVerifyHidePhotos.Validate_HideButton_working()'><b>Validate_HideButton_working</b><br>Test class: test.PhotosSection.TestVerifyHidePhotos<br/>
+<a href="#Output-727197178" onClick='toggleBox("Output-727197178", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-727197178" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-727197178">
+Hide buttton working<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>test.PhotosSection.TestVerifyHidePhotos@77846d2c</td></tr>
+<tr>
+<td title='test.PhotosSection.TestVerifyHidePhotos.Validate_ImagesSelected()'><b>Validate_ImagesSelected</b><br>Test class: test.PhotosSection.TestVerifyHidePhotos<br/>
+<a href="#Output-702500163" onClick='toggleBox("Output-702500163", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-702500163" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-702500163">
+All images selected<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>test.PhotosSection.TestVerifyHidePhotos@77846d2c</td></tr>
+<tr>
+<td title='test.PhotosSection.TestDeletePhotos.VerifyImageSelected()'><b>VerifyImageSelected</b><br>Test class: test.PhotosSection.TestDeletePhotos<br/>
+<a href="#Output-1372422140" onClick='toggleBox("Output-1372422140", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1372422140" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1372422140">
+Image Selected<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>test.PhotosSection.TestDeletePhotos@548ad73b</td></tr>
+<tr>
+<td title='test.PhotosSection.TestDeletePhotos.VeryDeletePhotosBtn_working()'><b>VeryDeletePhotosBtn_working</b><br>Test class: test.PhotosSection.TestDeletePhotos<br/>
+<a href="#Output-34073107" onClick='toggleBox("Output-34073107", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-34073107" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-34073107">
+Delete Button Working (Deleted)<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>test.PhotosSection.TestDeletePhotos@548ad73b</td></tr>
+<tr>
+<td title='test.PhotosSection.TestEditAlbum.clickOnEditAlbum()'><b>clickOnEditAlbum</b><br>Test class: test.PhotosSection.TestEditAlbum<br/>
+<a href="#Output-573136580" onClick='toggleBox("Output-573136580", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-573136580" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-573136580">
+Edit Album button working<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>test.PhotosSection.TestEditAlbum@306279ee</td></tr>
+<tr>
+<td title='test.PhotosSection.TestBackButton.pressBackButton()'><b>pressBackButton</b><br>Test class: test.PhotosSection.TestBackButton<br/>
+<a href="#Output-1274247563" onClick='toggleBox("Output-1274247563", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1274247563" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1274247563">
+Press back button two time to go back main screen<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>test.PhotosSection.TestBackButton@2641e737</td></tr>
+<tr>
+<td title='test.PhotosSection.TestOpenPhotos.validate_ClickOnPhotosSection()'><b>validate_ClickOnPhotosSection</b><br>Test class: test.PhotosSection.TestOpenPhotos<br/>
+<a href="#Output-1143390193" onClick='toggleBox("Output-1143390193", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1143390193" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1143390193">
+Photos Section open succesfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.PhotosSection.TestOpenPhotos@78186a70</td></tr>
+<tr>
+<td title='test.PhotosSection.TestLoginWithPin.validate_DashboardApear_Correct()'><b>validate_DashboardApear_Correct</b><br>Test class: test.PhotosSection.TestLoginWithPin<br/>
+<a href="#Output-735085430" onClick='toggleBox("Output-735085430", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-735085430" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-735085430">
+Dashoard Title 'Folder Lock' is correct<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.PhotosSection.TestLoginWithPin@481a15ff</td></tr>
+<tr>
+<td title='test.PhotosSection.TestCreateNewAlbum.validate_FolderIsOpen()'><b>validate_FolderIsOpen</b><br>Test class: test.PhotosSection.TestCreateNewAlbum<br/>
+<a href="#Output-264978436" onClick='toggleBox("Output-264978436", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-264978436" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-264978436">
+Folder Open succesfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>test.PhotosSection.TestCreateNewAlbum@545997b1</td></tr>
+<tr>
+<td title='test.PhotosSection.TestCreateNewAlbum.validate_FolderTitle_correct()'><b>validate_FolderTitle_correct</b><br>Test class: test.PhotosSection.TestCreateNewAlbum<br/>
+<a href="#Output-146874094" onClick='toggleBox("Output-146874094", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-146874094" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-146874094">
+'AutoCreate' title same as expected<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>test.PhotosSection.TestCreateNewAlbum@545997b1</td></tr>
+<tr>
+<td title='test.PhotosSection.TestOpenGallery.validate_GalleryTitle_Correct()'><b>validate_GalleryTitle_Correct</b><br>Test class: test.PhotosSection.TestOpenGallery<br/>
+<a href="#Output-414225167" onClick='toggleBox("Output-414225167", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-414225167" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-414225167">
+Open Gallery Title of image Library is correct<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>test.PhotosSection.TestOpenGallery@4cf4d528</td></tr>
+<tr>
+<td title='test.PhotosSection.TestOpenGallery.validate_ImageFolder_Open()'><b>validate_ImageFolder_Open</b><br>Test class: test.PhotosSection.TestOpenGallery<br/>
+<a href="#Output-1279740095" onClick='toggleBox("Output-1279740095", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1279740095" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1279740095">
+Use FolderLock Unhide Files Folder for uploading images<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.PhotosSection.TestOpenGallery@4cf4d528</td></tr>
+<tr>
+<td title='test.PhotosSection.TestOpenGallery.validate_ImagesFoundOnDevice()'><b>validate_ImagesFoundOnDevice</b><br>Test class: test.PhotosSection.TestOpenGallery<br/>
+<a href="#Output-1957078537" onClick='toggleBox("Output-1957078537", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1957078537" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1957078537">
+Total Folder : 1<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>test.PhotosSection.TestOpenGallery@4cf4d528</td></tr>
+<tr>
+<td title='test.PhotosSection.TestOpenGallery.validate_ImportFromGalleryBtn_Working()'><b>validate_ImportFromGalleryBtn_Working</b><br>Test class: test.PhotosSection.TestOpenGallery<br/>
+<a href="#Output-1574873161" onClick='toggleBox("Output-1574873161", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1574873161" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1574873161">
+import From gallery working<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>test.PhotosSection.TestOpenGallery@4cf4d528</td></tr>
+<tr>
+<td title='test.PhotosSection.TestEditAlbum.validate_NewFolderCreated()'><b>validate_NewFolderCreated</b><br>Test class: test.PhotosSection.TestEditAlbum<br/>
+<a href="#Output-1406919011" onClick='toggleBox("Output-1406919011", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1406919011" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1406919011">
+'AutoCreate' Folder created successfully<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>test.PhotosSection.TestEditAlbum@306279ee</td></tr>
+<tr>
+<td title='test.PhotosSection.TestCreateNewAlbum.validate_NewFolderCreated()'><b>validate_NewFolderCreated</b><br>Test class: test.PhotosSection.TestCreateNewAlbum<br/>
+<a href="#Output-793293778" onClick='toggleBox("Output-793293778", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-793293778" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-793293778">
+'AutoCreate' Folder created successfully<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>test.PhotosSection.TestCreateNewAlbum@545997b1</td></tr>
+<tr>
+<td title='test.PhotosSection.TestOpenPhotos.validate_PhotosPageTitle_correct()'><b>validate_PhotosPageTitle_correct</b><br>Test class: test.PhotosSection.TestOpenPhotos<br/>
+<a href="#Output-1016860054" onClick='toggleBox("Output-1016860054", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1016860054" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1016860054">
+Title Equal as per Expected<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>test.PhotosSection.TestOpenPhotos@78186a70</td></tr>
+<tr>
+<td title='test.PhotosSection.TestOpenGallery.validate_PlusButton_Working()'><b>validate_PlusButton_Working</b><br>Test class: test.PhotosSection.TestOpenGallery<br/>
+<a href="#Output-904253669" onClick='toggleBox("Output-904253669", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-904253669" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-904253669">
+Import Plus Button Working fine<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.PhotosSection.TestOpenGallery@4cf4d528</td></tr>
+<tr>
+<td title='test.PhotosSection.TestOpenPhotos.validate_TutorialPopUpSkipped()'><b>validate_TutorialPopUpSkipped</b><br>Test class: test.PhotosSection.TestOpenPhotos<br/>
+<a href="#Output-778720569" onClick='toggleBox("Output-778720569", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-778720569" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-778720569">
+Rating PopUp Does't Appear<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>test.PhotosSection.TestOpenPhotos@78186a70</td></tr>
+<tr>
+<td title='test.PhotosSection.TestLoginWithPin.validate_pin_working_correct()'><b>validate_pin_working_correct</b><br>Test class: test.PhotosSection.TestLoginWithPin<br/>
+<a href="#Output-643489709" onClick='toggleBox("Output-643489709", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-643489709" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-643489709">
+Pin Enter into text box successfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>test.PhotosSection.TestLoginWithPin@481a15ff</td></tr>
+<tr>
+<td title='test.PhotosSection.TestLoginWithPin.validate_ratingPopUpSkiped()'><b>validate_ratingPopUpSkiped</b><br>Test class: test.PhotosSection.TestLoginWithPin<br/>
+<a href="#Output-211090736" onClick='toggleBox("Output-211090736", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-211090736" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-211090736">
+Rating PopUp does't appear<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>test.PhotosSection.TestLoginWithPin@481a15ff</td></tr>
+<tr>
+<td title='test.PhotosSection.TestEditAlbum.varify_AlbumDeleteWorking()'><b>varify_AlbumDeleteWorking</b><br>Test class: test.PhotosSection.TestEditAlbum<br/>
+<a href="#Output-873175411" onClick='toggleBox("Output-873175411", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-873175411" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-873175411">
+Album Delete button Working<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>test.PhotosSection.TestEditAlbum@306279ee</td></tr>
+<tr>
+<td title='test.PhotosSection.TestEditAlbum.varify_AlbumRenameWorking()'><b>varify_AlbumRenameWorking</b><br>Test class: test.PhotosSection.TestEditAlbum<br/>
+<a href="#Output-1404932042" onClick='toggleBox("Output-1404932042", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1404932042" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1404932042">
+Album Rename working<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>test.PhotosSection.TestEditAlbum@306279ee</td></tr>
+<tr>
+<td title='test.PhotosSection.TestUnhidePhotos.verify_MediaSelectedToUnhide()'><b>verify_MediaSelectedToUnhide</b><br>Test class: test.PhotosSection.TestUnhidePhotos<br/>
+<a href="#Output-1088491512" onClick='toggleBox("Output-1088491512", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1088491512" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1088491512">
+All Images are selected<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>test.PhotosSection.TestUnhidePhotos@4c762604</td></tr>
+<tr>
+<td title='test.PhotosSection.TestUnhidePhotos.verify_UnhideBtnWorking()'><b>verify_UnhideBtnWorking</b><br>Test class: test.PhotosSection.TestUnhidePhotos<br/>
+<a href="#Output-119112899" onClick='toggleBox("Output-119112899", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-119112899" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-119112899">
+Unhide button working fine<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>test.PhotosSection.TestUnhidePhotos@4c762604</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,367 @@
+<html>
+<head>
+<title>TestNG:  Test Videos section</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test Videos section</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>24/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Feb 02 15:22:59 PKT 2021</td>
+</tr>
+<tr><td>Total time:</td><td>49 seconds (49342 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.VideosSection.TestHideVideos.Validate_All_VideosImported()'><b>Validate_All_VideosImported</b><br>Test class: test.VideosSection.TestHideVideos<br/>
+<a href="#Output-61304908" onClick='toggleBox("Output-61304908", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-61304908" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-61304908">
+Uploaded Images :5<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>test.VideosSection.TestHideVideos@6483f5ae</td></tr>
+<tr>
+<td title='test.VideosSection.TestHideVideos.Validate_CountVideos()'><b>Validate_CountVideos</b><br>Test class: test.VideosSection.TestHideVideos<br/>
+<a href="#Output-1710783020" onClick='toggleBox("Output-1710783020", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1710783020" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1710783020">
+before upload :5<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>test.VideosSection.TestHideVideos@6483f5ae</td></tr>
+<tr>
+<td title='test.VideosSection.TestHideVideos.Validate_HideButton_working()'><b>Validate_HideButton_working</b><br>Test class: test.VideosSection.TestHideVideos<br/>
+<a href="#Output-1296928719" onClick='toggleBox("Output-1296928719", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1296928719" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1296928719">
+Hide buttton working<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>test.VideosSection.TestHideVideos@6483f5ae</td></tr>
+<tr>
+<td title='test.VideosSection.TestHideVideos.Validate_VideosSelected()'><b>Validate_VideosSelected</b><br>Test class: test.VideosSection.TestHideVideos<br/>
+<a href="#Output-1372137902" onClick='toggleBox("Output-1372137902", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1372137902" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1372137902">
+All images selected<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>test.VideosSection.TestHideVideos@6483f5ae</td></tr>
+<tr>
+<td title='test.VideosSection.TestDeleteVideos.VerifyDeleteVideosBtn_working()'><b>VerifyDeleteVideosBtn_working</b><br>Test class: test.VideosSection.TestDeleteVideos<br/>
+<a href="#Output-1371400311" onClick='toggleBox("Output-1371400311", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1371400311" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1371400311">
+Delete Button Working (Deleted)<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>test.VideosSection.TestDeleteVideos@b9afc07</td></tr>
+<tr>
+<td title='test.VideosSection.TestDeleteVideos.VerifyVideosSelected()'><b>VerifyVideosSelected</b><br>Test class: test.VideosSection.TestDeleteVideos<br/>
+<a href="#Output-1779914089" onClick='toggleBox("Output-1779914089", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1779914089" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1779914089">
+Videos Selected<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>test.VideosSection.TestDeleteVideos@b9afc07</td></tr>
+<tr>
+<td title='test.VideosSection.TestEditAlbum.clickOnEditAlbum()'><b>clickOnEditAlbum</b><br>Test class: test.VideosSection.TestEditAlbum<br/>
+<a href="#Output-1733056574" onClick='toggleBox("Output-1733056574", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1733056574" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1733056574">
+Edit Album button working<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>test.VideosSection.TestEditAlbum@aecb35a</td></tr>
+<tr>
+<td title='test.PhotosSection.TestBackButton.pressBackButton()'><b>pressBackButton</b><br>Test class: test.PhotosSection.TestBackButton<br/>
+<a href="#Output-732189840" onClick='toggleBox("Output-732189840", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-732189840" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-732189840">
+Press back button two time to go back main screen<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>test.PhotosSection.TestBackButton@73d4cc9e</td></tr>
+<tr>
+<td title='test.VideosSection.TestOpenVideos.validate_ClickOnVideosSection()'><b>validate_ClickOnVideosSection</b><br>Test class: test.VideosSection.TestOpenVideos<br/>
+<a href="#Output-181078353" onClick='toggleBox("Output-181078353", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-181078353" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-181078353">
+Videos Section open succesfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>test.VideosSection.TestOpenVideos@7dc222ae</td></tr>
+<tr>
+<td title='test.VideosSection.TestCreateNewAlbum.validate_FolderIsOpen()'><b>validate_FolderIsOpen</b><br>Test class: test.VideosSection.TestCreateNewAlbum<br/>
+<a href="#Output-1911978617" onClick='toggleBox("Output-1911978617", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1911978617" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1911978617">
+Folder Open succesfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>test.VideosSection.TestCreateNewAlbum@5fcd892a</td></tr>
+<tr>
+<td title='test.VideosSection.TestCreateNewAlbum.validate_FolderTitle_correct()'><b>validate_FolderTitle_correct</b><br>Test class: test.VideosSection.TestCreateNewAlbum<br/>
+<a href="#Output-1700421020" onClick='toggleBox("Output-1700421020", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1700421020" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1700421020">
+'AutoCreate' title same as expected<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>test.VideosSection.TestCreateNewAlbum@5fcd892a</td></tr>
+<tr>
+<td title='test.VideosSection.TestOpenGallery.validate_GalleryTitle_Correct()'><b>validate_GalleryTitle_Correct</b><br>Test class: test.VideosSection.TestOpenGallery<br/>
+<a href="#Output-913746983" onClick='toggleBox("Output-913746983", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-913746983" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-913746983">
+Open Gallery Title of videos Library is correct<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>test.VideosSection.TestOpenGallery@8b87145</td></tr>
+<tr>
+<td title='test.VideosSection.TestOpenGallery.validate_ImportFromGalleryBtn_Working()'><b>validate_ImportFromGalleryBtn_Working</b><br>Test class: test.VideosSection.TestOpenGallery<br/>
+<a href="#Output-1366722422" onClick='toggleBox("Output-1366722422", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1366722422" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1366722422">
+import From gallery working<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>test.VideosSection.TestOpenGallery@8b87145</td></tr>
+<tr>
+<td title='test.VideosSection.TestEditAlbum.validate_NewFolderCreated()'><b>validate_NewFolderCreated</b><br>Test class: test.VideosSection.TestEditAlbum<br/>
+<a href="#Output-130166095" onClick='toggleBox("Output-130166095", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-130166095" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-130166095">
+'AutoCreate' Folder created successfully<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>test.VideosSection.TestEditAlbum@aecb35a</td></tr>
+<tr>
+<td title='test.VideosSection.TestCreateNewAlbum.validate_NewFolderCreated()'><b>validate_NewFolderCreated</b><br>Test class: test.VideosSection.TestCreateNewAlbum<br/>
+<a href="#Output-1535116392" onClick='toggleBox("Output-1535116392", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1535116392" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1535116392">
+'AutoCreate' Folder created successfully<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>test.VideosSection.TestCreateNewAlbum@5fcd892a</td></tr>
+<tr>
+<td title='test.VideosSection.TestOpenGallery.validate_PlusButton_Working()'><b>validate_PlusButton_Working</b><br>Test class: test.VideosSection.TestOpenGallery<br/>
+<a href="#Output-380616082" onClick='toggleBox("Output-380616082", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-380616082" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-380616082">
+Import Plus Button Working fine<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.VideosSection.TestOpenGallery@8b87145</td></tr>
+<tr>
+<td title='test.VideosSection.TestOpenVideos.validate_TutorialPopUpSkipped()'><b>validate_TutorialPopUpSkipped</b><br>Test class: test.VideosSection.TestOpenVideos<br/>
+<a href="#Output-1135935001" onClick='toggleBox("Output-1135935001", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1135935001" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1135935001">
+Tutorial Popup Skipped<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>test.VideosSection.TestOpenVideos@7dc222ae</td></tr>
+<tr>
+<td title='test.VideosSection.TestOpenGallery.validate_VideosFolder_Open()'><b>validate_VideosFolder_Open</b><br>Test class: test.VideosSection.TestOpenGallery<br/>
+<a href="#Output-1234905692" onClick='toggleBox("Output-1234905692", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1234905692" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1234905692">
+Use 0 Folder for uploading images<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.VideosSection.TestOpenGallery@8b87145</td></tr>
+<tr>
+<td title='test.VideosSection.TestOpenGallery.validate_VideosFoundOnDevice()'><b>validate_VideosFoundOnDevice</b><br>Test class: test.VideosSection.TestOpenGallery<br/>
+<a href="#Output-389779746" onClick='toggleBox("Output-389779746", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-389779746" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-389779746">
+Total Folder : 2<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.VideosSection.TestOpenGallery@8b87145</td></tr>
+<tr>
+<td title='test.VideosSection.TestOpenVideos.validate_VideosPageTitle_correct()'><b>validate_VideosPageTitle_correct</b><br>Test class: test.VideosSection.TestOpenVideos<br/>
+<a href="#Output-265348534" onClick='toggleBox("Output-265348534", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-265348534" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-265348534">
+Title Equal as per Expected<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.VideosSection.TestOpenVideos@7dc222ae</td></tr>
+<tr>
+<td title='test.VideosSection.TestEditAlbum.varify_AlbumDeleteWorking()'><b>varify_AlbumDeleteWorking</b><br>Test class: test.VideosSection.TestEditAlbum<br/>
+<a href="#Output-813131188" onClick='toggleBox("Output-813131188", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-813131188" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-813131188">
+Album Delete button Working<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>test.VideosSection.TestEditAlbum@aecb35a</td></tr>
+<tr>
+<td title='test.VideosSection.TestEditAlbum.varify_AlbumRenameWorking()'><b>varify_AlbumRenameWorking</b><br>Test class: test.VideosSection.TestEditAlbum<br/>
+<a href="#Output-925803196" onClick='toggleBox("Output-925803196", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-925803196" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-925803196">
+Album Rename working<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>test.VideosSection.TestEditAlbum@aecb35a</td></tr>
+<tr>
+<td title='test.VideosSection.TestUnhideVideos.verify_MediaSelectedToUnhide()'><b>verify_MediaSelectedToUnhide</b><br>Test class: test.VideosSection.TestUnhideVideos<br/>
+<a href="#Output-319426406" onClick='toggleBox("Output-319426406", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-319426406" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-319426406">
+All Videos are selected<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>test.VideosSection.TestUnhideVideos@382db087</td></tr>
+<tr>
+<td title='test.VideosSection.TestUnhideVideos.verify_UnhideBtnWorking()'><b>verify_UnhideBtnWorking</b><br>Test class: test.VideosSection.TestUnhideVideos<br/>
+<a href="#Output-1704214570" onClick='toggleBox("Output-1704214570", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1704214570" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1704214570">
+Unhide button working fine<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>test.VideosSection.TestUnhideVideos@382db087</td></tr>
+</table><p>
+</body>
+</html>
