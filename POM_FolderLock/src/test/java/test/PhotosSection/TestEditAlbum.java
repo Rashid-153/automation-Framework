@@ -4,6 +4,7 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import Pages.AlbumEditButton;
+import base.BaseClass;
 import Pages.CreateFolder;
 
 public class TestEditAlbum extends BaseClass {

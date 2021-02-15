@@ -1,10 +1,13 @@
 package test.PhotosSection;
 
+import java.io.IOException;
+
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import Pages.AdsHandling;
+import base.BaseClass;
 import Pages.LoginWithPin;
 import Pages.RatingPopUp;
 
@@ -17,7 +20,7 @@ public class TestLoginWithPin extends BaseClass {
 	
 
 	@Test(priority = 1)
-	public void validate_pin_working_correct() {
+	public void validate_pin_working_correct() throws IOException {
 
 		enterPin = new LoginWithPin(driver);
 		enterPin.performLogin("0000");
@@ -32,7 +35,7 @@ public class TestLoginWithPin extends BaseClass {
 	}
 
 	@Test(priority = 3)
-	public void validate_DashboardApear_Correct() {
+	public void validate_DashboardApear_Correct() throws IOException {
 		getDashBoardTitle = new LoginWithPin(driver);
 		String title = getDashBoardTitle.get_Dashboard_title();
 		Assert.assertEquals("Folder Lock", title);

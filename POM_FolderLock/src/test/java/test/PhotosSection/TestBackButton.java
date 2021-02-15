@@ -4,6 +4,7 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import Pages.BackButton;
+import base.BaseClass;
 
 public class TestBackButton extends BaseClass {
 	BackButton backBtn;

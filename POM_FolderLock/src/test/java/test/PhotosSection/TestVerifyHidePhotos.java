@@ -6,6 +6,7 @@ import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
+import base.BaseClass;
 import Pages.HideButton;
 import Pages.SelectMedia;
 

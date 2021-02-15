@@ -1,4 +1,4 @@
-package Android.customListeners;
+package listeners;
 
 
 import java.io.File;
@@ -13,11 +13,11 @@ import org.testng.ITestListener;
 import org.testng.ITestResult;
 import org.testng.Reporter;
 
-import test.PhotosSection.BaseClass;
+import base.BaseClass;
 
-
-public class Listener extends BaseClass implements ITestListener {
- int i=0;
+public class CustomListener extends BaseClass implements ITestListener {
+	
+	int i=0;
 	String filePath="D:\\testScreenShort\\failed\\";
 	String successfilePath="D:\\testScreenShort\\success\\"; 
 	public void onTestSuccess(ITestResult result) {

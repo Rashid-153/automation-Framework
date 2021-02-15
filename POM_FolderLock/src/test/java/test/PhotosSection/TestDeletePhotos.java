@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 
 import Pages.BtnSelectAll;
 import Pages.SelectMedia;
+import base.BaseClass;
 import Pages.BtnDelete;
 public class TestDeletePhotos extends BaseClass{
 	

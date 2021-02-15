@@ -5,52 +5,68 @@
     <listener class-name="Android.customListeners.Listener"/>
     <listener class-name="org.uncommons.reportng.HTMLReporter"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="Test photos section(failed)">
     <classes>
       <class name="test.PhotosSection.TestBackButton">
         <methods>
+          <include name="setup"/>
           <include name="pressBackButton"/>
           <include name="tearDown"/>
-          <include name="setup"/>
         </methods>
       </class> <!-- test.PhotosSection.TestBackButton -->
-      <class name="test.PhotosSection.TestOpenGallery">
+      <class name="test.VideosSection.TestCreateNewAlbum">
         <methods>
-          <include name="validate_GalleryTitle_Correct"/>
-          <include name="validate_ImageFolder_Open"/>
+          <include name="validate_FolderTitle_correct"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="validate_FolderIsOpen"/>
+          <include name="validate_NewFolderCreated"/>
+        </methods>
+      </class> <!-- test.VideosSection.TestCreateNewAlbum -->
+      <class name="test.VideosSection.TestOpenGallery">
+        <methods>
+          <include name="setup"/>
           <include name="validate_PlusButton_Working"/>
+          <include name="validate_GalleryTitle_Correct"/>
           <include name="tearDown"/>
-          <include name="validate_ImagesFoundOnDevice"/>
+          <include name="validate_VideosFoundOnDevice"/>
+          <include name="validate_VideosFolder_Open"/>
           <include name="validate_ImportFromGalleryBtn_Working"/>
-          <include name="setup"/>
         </methods>
-      </class> <!-- test.PhotosSection.TestOpenGallery -->
-      <class name="test.PhotosSection.TestDeletePhotos">
+      </class> <!-- test.VideosSection.TestOpenGallery -->
+      <class name="test.VideosSection.TestDeleteVideos">
         <methods>
-          <include name="VerifyImageSelected"/>
-          <include name="VeryDeletePhotosBtn_working"/>
+          <include name="setup"/>
+          <include name="VerifyDeleteVideosBtn_working"/>
           <include name="tearDown"/>
-          <include name="setup"/>
+          <include name="VerifyVideosSelected"/>
         </methods>
-      </class> <!-- test.PhotosSection.TestDeletePhotos -->
-      <class name="test.PhotosSection.TestVerifyHidePhotos">
+      </class> <!-- test.VideosSection.TestDeleteVideos -->
+      <class name="test.VideosSection.TestEditAlbum">
         <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="varify_AlbumDeleteWorking"/>
+        </methods>
+      </class> <!-- test.VideosSection.TestEditAlbum -->
+      <class name="test.VideosSection.TestHideVideos">
+        <methods>
+          <include name="Validate_CountVideos"/>
+          <include name="Validate_VideosSelected"/>
+          <include name="setup"/>
+          <include name="Validate_All_VideosImported"/>
           <include name="Validate_HideButton_working"/>
-          <include name="Validate_All_ImagesUpladed"/>
-          <include name="Validate_CountImages"/>
           <include name="tearDown"/>
-          <include name="Validate_ImagesSelected"/>
-          <include name="setup"/>
         </methods>
-      </class> <!-- test.PhotosSection.TestVerifyHidePhotos -->
-      <class name="test.PhotosSection.TestUnhidePhotos">
+      </class> <!-- test.VideosSection.TestHideVideos -->
+      <class name="test.VideosSection.TestUnhideVideos">
         <methods>
-          <include name="tearDown"/>
-          <include name="verify_MediaSelectedToUnhide"/>
           <include name="verify_UnhideBtnWorking"/>
           <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="verify_MediaSelectedToUnhide"/>
         </methods>
-      </class> <!-- test.PhotosSection.TestUnhidePhotos -->
+      </class> <!-- test.VideosSection.TestUnhideVideos -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Test photos section(failed) -->
 </suite> <!-- Failed suite [Suite] -->

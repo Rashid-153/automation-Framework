@@ -3,6 +3,7 @@ package test.PhotosSection;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
+import base.BaseClass;
 import Pages.BtnSelectAll;
 import Pages.SelectMedia;
 import Pages.UnhideButton;
