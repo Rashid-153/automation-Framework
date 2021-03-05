@@ -3,7 +3,7 @@
 <suite name="FolderLock Suite">
 <listeners>
 
-<listener class-name="Android.customListeners.Listener"></listener>
+<listener class-name="listeners.CustomListener"></listener>
 <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
 
 </listeners>

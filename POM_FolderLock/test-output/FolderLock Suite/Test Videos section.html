@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test Videos section</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>24/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>11/5/8</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Feb 02 15:22:59 PKT 2021</td>
+<td>Started on:</td><td>Wed Feb 24 17:31:02 PKT 2021</td>
 </tr>
-<tr><td>Total time:</td><td>49 seconds (49342 ms)</td>
+<tr><td>Total time:</td><td>30 seconds (30621 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,644 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.VideosSection.TestHideVideos.Validate_CountVideos()'><b>Validate_CountVideos</b><br>Test class: test.VideosSection.TestHideVideos<br/>
+<a href="#Output-11156790" onClick='toggleBox("Output-11156790", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-11156790" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-11156790">
+Click to see Screenshot<br/>
+<a target="_blank" href=Wed_Feb_24_17_31_28_PKT_2021.jpg>Screenshot</a><br/>
+<br><br/>
+<br><br/>
+<a target="_blank" href=Wed_Feb_24_17_31_28_PKT_2021.jpg><img src=Wed_Feb_24_17_31_28_PKT_2021.jpg height=200 width=200></img></a><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (CLASS_NAME=&apos;android.widget.GridView&apos;))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;FARIZ-PC&apos;, ip: &apos;192.168.79.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_112&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appBuildVersion: , appPackage: com.newsoftwares.folderlock_v1, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: true, autoWebview: false, browserName: , commandTimeouts: 120000, desired: {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appPackage: com.newsoftwares.folderlock_v1, autoGrantPermissions: true, browserName: , deviceName: SM-G950U, fullReset: false, noReset: true, platformName: Android, platformVersion: 9}, device.category: PHONE, device.majorVersion: 9, device.manufacture: Genymotion, device.model: Custom Phone, device.name: Custom Phone, device.os: Android, device.screenSize: 1080x2160, device.serialNumber: 192.168.79.105:5555, device.version: 9, deviceName: SM-G950U, deviceUDID: 192.168.79.105:5555, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: true, platform: ANDROID, platformName: Android, platformVersion: 9, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Fariz Anjum\appium..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 02/24/21 05:30 PM, udid: 192.168.79.105:5555, useKeystore: false, waitForDeviceTimeout: 120000}
+Session ID: a1a7a9b7-84bc-441a-a32b-492519d1a50b
+*** Element info: {Using=class name, value=android.widget.GridView}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByClassName(DefaultGenericMobileDriver.java:125)
+	at io.appium.java_client.AppiumDriver.findElementByClassName(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByClassName(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at Pages.SelectMedia.coutLibraryImages(SelectMedia.java:32)
+	at test.VideosSection.TestHideVideos.Validate_CountVideos(TestHideVideos.java:22)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace11156790", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace11156790'><pre>org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (CLASS_NAME=&apos;android.widget.GridView&apos;))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;FARIZ-PC&apos;, ip: &apos;192.168.79.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_112&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appBuildVersion: , appPackage: com.newsoftwares.folderlock_v1, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: true, autoWebview: false, browserName: , commandTimeouts: 120000, desired: {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appPackage: com.newsoftwares.folderlock_v1, autoGrantPermissions: true, browserName: , deviceName: SM-G950U, fullReset: false, noReset: true, platformName: Android, platformVersion: 9}, device.category: PHONE, device.majorVersion: 9, device.manufacture: Genymotion, device.model: Custom Phone, device.name: Custom Phone, device.os: Android, device.screenSize: 1080x2160, device.serialNumber: 192.168.79.105:5555, device.version: 9, deviceName: SM-G950U, deviceUDID: 192.168.79.105:5555, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: true, platform: ANDROID, platformName: Android, platformVersion: 9, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Fariz Anjum\appium..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 02/24/21 05:30 PM, udid: 192.168.79.105:5555, useKeystore: false, waitForDeviceTimeout: 120000}
+Session ID: a1a7a9b7-84bc-441a-a32b-492519d1a50b
+*** Element info: {Using=class name, value=android.widget.GridView}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByClassName(DefaultGenericMobileDriver.java:125)
+	at io.appium.java_client.AppiumDriver.findElementByClassName(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByClassName(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at Pages.SelectMedia.coutLibraryImages(SelectMedia.java:32)
+	at test.VideosSection.TestHideVideos.Validate_CountVideos(TestHideVideos.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>test.VideosSection.TestHideVideos@1fb8912</td></tr>
+<tr>
+<td title='test.VideosSection.TestDeleteVideos.VerifyVideosSelected()'><b>VerifyVideosSelected</b><br>Test class: test.VideosSection.TestDeleteVideos<br/>
+<a href="#Output-32972012" onClick='toggleBox("Output-32972012", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-32972012" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-32972012">
+Click to see Screenshot<br/>
+<a target="_blank" href=Wed_Feb_24_17_31_29_PKT_2021.jpg>Screenshot</a><br/>
+<br><br/>
+<br><br/>
+<a target="_blank" href=Wed_Feb_24_17_31_29_PKT_2021.jpg><img src=Wed_Feb_24_17_31_29_PKT_2021.jpg height=200 width=200></img></a><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (CLASS_NAME=&apos;android.widget.GridView&apos;))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;FARIZ-PC&apos;, ip: &apos;192.168.79.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_112&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appBuildVersion: , appPackage: com.newsoftwares.folderlock_v1, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: true, autoWebview: false, browserName: , commandTimeouts: 120000, desired: {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appPackage: com.newsoftwares.folderlock_v1, autoGrantPermissions: true, browserName: , deviceName: SM-G950U, fullReset: false, noReset: true, platformName: Android, platformVersion: 9}, device.category: PHONE, device.majorVersion: 9, device.manufacture: Genymotion, device.model: Custom Phone, device.name: Custom Phone, device.os: Android, device.screenSize: 1080x2160, device.serialNumber: 192.168.79.105:5555, device.version: 9, deviceName: SM-G950U, deviceUDID: 192.168.79.105:5555, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: true, platform: ANDROID, platformName: Android, platformVersion: 9, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Fariz Anjum\appium..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 02/24/21 05:30 PM, udid: 192.168.79.105:5555, useKeystore: false, waitForDeviceTimeout: 120000}
+Session ID: a1a7a9b7-84bc-441a-a32b-492519d1a50b
+*** Element info: {Using=class name, value=android.widget.GridView}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByClassName(DefaultGenericMobileDriver.java:125)
+	at io.appium.java_client.AppiumDriver.findElementByClassName(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByClassName(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.findElement(Unknown Source)
+	at Pages.SelectMedia.longPress(SelectMedia.java:37)
+	at test.VideosSection.TestDeleteVideos.VerifyVideosSelected(TestDeleteVideos.java:19)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace32972012", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace32972012'><pre>org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (CLASS_NAME=&apos;android.widget.GridView&apos;))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;FARIZ-PC&apos;, ip: &apos;192.168.79.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_112&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appBuildVersion: , appPackage: com.newsoftwares.folderlock_v1, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: true, autoWebview: false, browserName: , commandTimeouts: 120000, desired: {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appPackage: com.newsoftwares.folderlock_v1, autoGrantPermissions: true, browserName: , deviceName: SM-G950U, fullReset: false, noReset: true, platformName: Android, platformVersion: 9}, device.category: PHONE, device.majorVersion: 9, device.manufacture: Genymotion, device.model: Custom Phone, device.name: Custom Phone, device.os: Android, device.screenSize: 1080x2160, device.serialNumber: 192.168.79.105:5555, device.version: 9, deviceName: SM-G950U, deviceUDID: 192.168.79.105:5555, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: true, platform: ANDROID, platformName: Android, platformVersion: 9, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Fariz Anjum\appium..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 02/24/21 05:30 PM, udid: 192.168.79.105:5555, useKeystore: false, waitForDeviceTimeout: 120000}
+Session ID: a1a7a9b7-84bc-441a-a32b-492519d1a50b
+*** Element info: {Using=class name, value=android.widget.GridView}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByClassName(DefaultGenericMobileDriver.java:125)
+	at io.appium.java_client.AppiumDriver.findElementByClassName(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByClassName(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.findElement(Unknown Source)
+	at Pages.SelectMedia.longPress(SelectMedia.java:37)
+	at test.VideosSection.TestDeleteVideos.VerifyVideosSelected(TestDeleteVideos.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>test.VideosSection.TestDeleteVideos@24b813</td></tr>
+<tr>
+<td title='test.VideosSection.TestOpenVideos.validate_ClickOnVideosSection()'><b>validate_ClickOnVideosSection</b><br>Test class: test.VideosSection.TestOpenVideos<br/>
+<a href="#Output-4547040" onClick='toggleBox("Output-4547040", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-4547040" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-4547040">
+Click to see Screenshot<br/>
+<a target="_blank" href=Wed_Feb_24_17_31_04_PKT_2021.jpg>Screenshot</a><br/>
+<br><br/>
+<br><br/>
+<a target="_blank" href=Wed_Feb_24_17_31_04_PKT_2021.jpg><img src=Wed_Feb_24_17_31_04_PKT_2021.jpg height=200 width=200></img></a><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (XPATH=&apos;//*[@text=&apos;Videos&apos;]&apos;))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;FARIZ-PC&apos;, ip: &apos;192.168.79.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_112&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appBuildVersion: , appPackage: com.newsoftwares.folderlock_v1, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: true, autoWebview: false, browserName: , commandTimeouts: 120000, desired: {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appPackage: com.newsoftwares.folderlock_v1, autoGrantPermissions: true, browserName: , deviceName: SM-G950U, fullReset: false, noReset: true, platformName: Android, platformVersion: 9}, device.category: PHONE, device.majorVersion: 9, device.manufacture: Genymotion, device.model: Custom Phone, device.name: Custom Phone, device.os: Android, device.screenSize: 1080x2160, device.serialNumber: 192.168.79.105:5555, device.version: 9, deviceName: SM-G950U, deviceUDID: 192.168.79.105:5555, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: true, platform: ANDROID, platformName: Android, platformVersion: 9, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Fariz Anjum\appium..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 02/24/21 05:30 PM, udid: 192.168.79.105:5555, useKeystore: false, waitForDeviceTimeout: 120000}
+Session ID: a1a7a9b7-84bc-441a-a32b-492519d1a50b
+*** Element info: {Using=xpath, value=//*[@text=&apos;Videos&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at Pages.OpenVideosSection.OpenVideos(OpenVideosSection.java:31)
+	at test.VideosSection.TestOpenVideos.validate_ClickOnVideosSection(TestOpenVideos.java:17)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace4547040", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace4547040'><pre>org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (XPATH=&apos;//*[@text=&apos;Videos&apos;]&apos;))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;FARIZ-PC&apos;, ip: &apos;192.168.79.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_112&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appBuildVersion: , appPackage: com.newsoftwares.folderlock_v1, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: true, autoWebview: false, browserName: , commandTimeouts: 120000, desired: {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appPackage: com.newsoftwares.folderlock_v1, autoGrantPermissions: true, browserName: , deviceName: SM-G950U, fullReset: false, noReset: true, platformName: Android, platformVersion: 9}, device.category: PHONE, device.majorVersion: 9, device.manufacture: Genymotion, device.model: Custom Phone, device.name: Custom Phone, device.os: Android, device.screenSize: 1080x2160, device.serialNumber: 192.168.79.105:5555, device.version: 9, deviceName: SM-G950U, deviceUDID: 192.168.79.105:5555, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: true, platform: ANDROID, platformName: Android, platformVersion: 9, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Fariz Anjum\appium..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 02/24/21 05:30 PM, udid: 192.168.79.105:5555, useKeystore: false, waitForDeviceTimeout: 120000}
+Session ID: a1a7a9b7-84bc-441a-a32b-492519d1a50b
+*** Element info: {Using=xpath, value=//*[@text=&apos;Videos&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at Pages.OpenVideosSection.OpenVideos(OpenVideosSection.java:31)
+	at test.VideosSection.TestOpenVideos.validate_ClickOnVideosSection(TestOpenVideos.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>test.VideosSection.TestOpenVideos@3588e6</td></tr>
+<tr>
+<td title='test.VideosSection.TestOpenGallery.validate_VideosFoundOnDevice()'><b>validate_VideosFoundOnDevice</b><br>Test class: test.VideosSection.TestOpenGallery<br/>
+<a href="#Output-2540574" onClick='toggleBox("Output-2540574", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2540574" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2540574">
+Click to see Screenshot<br/>
+<a target="_blank" href=Wed_Feb_24_17_31_26_PKT_2021.jpg>Screenshot</a><br/>
+<br><br/>
+<br><br/>
+<a target="_blank" href=Wed_Feb_24_17_31_26_PKT_2021.jpg><img src=Wed_Feb_24_17_31_26_PKT_2021.jpg height=200 width=200></img></a><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (XPATH=&apos;//*[@resource-id=&apos;com.newsoftwares.folderlock_v1:id/album_import_ListView&apos;]&apos;))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;FARIZ-PC&apos;, ip: &apos;192.168.79.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_112&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appBuildVersion: , appPackage: com.newsoftwares.folderlock_v1, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: true, autoWebview: false, browserName: , commandTimeouts: 120000, desired: {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appPackage: com.newsoftwares.folderlock_v1, autoGrantPermissions: true, browserName: , deviceName: SM-G950U, fullReset: false, noReset: true, platformName: Android, platformVersion: 9}, device.category: PHONE, device.majorVersion: 9, device.manufacture: Genymotion, device.model: Custom Phone, device.name: Custom Phone, device.os: Android, device.screenSize: 1080x2160, device.serialNumber: 192.168.79.105:5555, device.version: 9, deviceName: SM-G950U, deviceUDID: 192.168.79.105:5555, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: true, platform: ANDROID, platformName: Android, platformVersion: 9, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Fariz Anjum\appium..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 02/24/21 05:30 PM, udid: 192.168.79.105:5555, useKeystore: false, waitForDeviceTimeout: 120000}
+Session ID: a1a7a9b7-84bc-441a-a32b-492519d1a50b
+*** Element info: {Using=xpath, value=//*[@resource-id=&apos;com.newsoftwares.folderlock_v1:id/album_import_ListView&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at Pages.CheckMediaInDevice.countMediaFolder(CheckMediaInDevice.java:26)
+	at test.VideosSection.TestOpenGallery.validate_VideosFoundOnDevice(TestOpenGallery.java:39)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2540574", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2540574'><pre>org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (XPATH=&apos;//*[@resource-id=&apos;com.newsoftwares.folderlock_v1:id/album_import_ListView&apos;]&apos;))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;FARIZ-PC&apos;, ip: &apos;192.168.79.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_112&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appBuildVersion: , appPackage: com.newsoftwares.folderlock_v1, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: true, autoWebview: false, browserName: , commandTimeouts: 120000, desired: {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appPackage: com.newsoftwares.folderlock_v1, autoGrantPermissions: true, browserName: , deviceName: SM-G950U, fullReset: false, noReset: true, platformName: Android, platformVersion: 9}, device.category: PHONE, device.majorVersion: 9, device.manufacture: Genymotion, device.model: Custom Phone, device.name: Custom Phone, device.os: Android, device.screenSize: 1080x2160, device.serialNumber: 192.168.79.105:5555, device.version: 9, deviceName: SM-G950U, deviceUDID: 192.168.79.105:5555, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: true, platform: ANDROID, platformName: Android, platformVersion: 9, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Fariz Anjum\appium..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 02/24/21 05:30 PM, udid: 192.168.79.105:5555, useKeystore: false, waitForDeviceTimeout: 120000}
+Session ID: a1a7a9b7-84bc-441a-a32b-492519d1a50b
+*** Element info: {Using=xpath, value=//*[@resource-id=&apos;com.newsoftwares.folderlock_v1:id/album_import_ListView&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at Pages.CheckMediaInDevice.countMediaFolder(CheckMediaInDevice.java:26)
+	at test.VideosSection.TestOpenGallery.validate_VideosFoundOnDevice(TestOpenGallery.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>test.VideosSection.TestOpenGallery@17148e2</td></tr>
+<tr>
+<td title='test.VideosSection.TestUnhideVideos.verify_MediaSelectedToUnhide()'><b>verify_MediaSelectedToUnhide</b><br>Test class: test.VideosSection.TestUnhideVideos<br/>
+<a href="#Output-3685939" onClick='toggleBox("Output-3685939", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-3685939" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-3685939">
+Click to see Screenshot<br/>
+<a target="_blank" href=Wed_Feb_24_17_31_31_PKT_2021.jpg>Screenshot</a><br/>
+<br><br/>
+<br><br/>
+<a target="_blank" href=Wed_Feb_24_17_31_31_PKT_2021.jpg><img src=Wed_Feb_24_17_31_31_PKT_2021.jpg height=200 width=200></img></a><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (CLASS_NAME=&apos;android.widget.GridView&apos;))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;FARIZ-PC&apos;, ip: &apos;192.168.79.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_112&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appBuildVersion: , appPackage: com.newsoftwares.folderlock_v1, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: true, autoWebview: false, browserName: , commandTimeouts: 120000, desired: {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appPackage: com.newsoftwares.folderlock_v1, autoGrantPermissions: true, browserName: , deviceName: SM-G950U, fullReset: false, noReset: true, platformName: Android, platformVersion: 9}, device.category: PHONE, device.majorVersion: 9, device.manufacture: Genymotion, device.model: Custom Phone, device.name: Custom Phone, device.os: Android, device.screenSize: 1080x2160, device.serialNumber: 192.168.79.105:5555, device.version: 9, deviceName: SM-G950U, deviceUDID: 192.168.79.105:5555, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: true, platform: ANDROID, platformName: Android, platformVersion: 9, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Fariz Anjum\appium..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 02/24/21 05:30 PM, udid: 192.168.79.105:5555, useKeystore: false, waitForDeviceTimeout: 120000}
+Session ID: a1a7a9b7-84bc-441a-a32b-492519d1a50b
+*** Element info: {Using=class name, value=android.widget.GridView}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByClassName(DefaultGenericMobileDriver.java:125)
+	at io.appium.java_client.AppiumDriver.findElementByClassName(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByClassName(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.findElement(Unknown Source)
+	at Pages.SelectMedia.longPress(SelectMedia.java:37)
+	at test.VideosSection.TestUnhideVideos.verify_MediaSelectedToUnhide(TestUnhideVideos.java:20)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace3685939", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace3685939'><pre>org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (CLASS_NAME=&apos;android.widget.GridView&apos;))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;FARIZ-PC&apos;, ip: &apos;192.168.79.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_112&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appBuildVersion: , appPackage: com.newsoftwares.folderlock_v1, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: true, autoWebview: false, browserName: , commandTimeouts: 120000, desired: {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appPackage: com.newsoftwares.folderlock_v1, autoGrantPermissions: true, browserName: , deviceName: SM-G950U, fullReset: false, noReset: true, platformName: Android, platformVersion: 9}, device.category: PHONE, device.majorVersion: 9, device.manufacture: Genymotion, device.model: Custom Phone, device.name: Custom Phone, device.os: Android, device.screenSize: 1080x2160, device.serialNumber: 192.168.79.105:5555, device.version: 9, deviceName: SM-G950U, deviceUDID: 192.168.79.105:5555, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: true, platform: ANDROID, platformName: Android, platformVersion: 9, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Fariz Anjum\appium..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 02/24/21 05:30 PM, udid: 192.168.79.105:5555, useKeystore: false, waitForDeviceTimeout: 120000}
+Session ID: a1a7a9b7-84bc-441a-a32b-492519d1a50b
+*** Element info: {Using=class name, value=android.widget.GridView}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByClassName(DefaultGenericMobileDriver.java:125)
+	at io.appium.java_client.AppiumDriver.findElementByClassName(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByClassName(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.findElement(Unknown Source)
+	at Pages.SelectMedia.longPress(SelectMedia.java:37)
+	at test.VideosSection.TestUnhideVideos.verify_MediaSelectedToUnhide(TestUnhideVideos.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>test.VideosSection.TestUnhideVideos@35e847</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,293 +713,369 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='test.VideosSection.TestHideVideos.Validate_All_VideosImported()'><b>Validate_All_VideosImported</b><br>Test class: test.VideosSection.TestHideVideos<br/>
-<a href="#Output-61304908" onClick='toggleBox("Output-61304908", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-61304908" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-61304908">
-Uploaded Images :5<br/>
-</div>
-</td>
-<td></td>
-<td>2</td>
-<td>test.VideosSection.TestHideVideos@6483f5ae</td></tr>
-<tr>
-<td title='test.VideosSection.TestHideVideos.Validate_CountVideos()'><b>Validate_CountVideos</b><br>Test class: test.VideosSection.TestHideVideos<br/>
-<a href="#Output-1710783020" onClick='toggleBox("Output-1710783020", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1710783020" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1710783020">
-before upload :5<br/>
-</div>
-</td>
-<td></td>
-<td>1</td>
-<td>test.VideosSection.TestHideVideos@6483f5ae</td></tr>
-<tr>
-<td title='test.VideosSection.TestHideVideos.Validate_HideButton_working()'><b>Validate_HideButton_working</b><br>Test class: test.VideosSection.TestHideVideos<br/>
-<a href="#Output-1296928719" onClick='toggleBox("Output-1296928719", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1296928719" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1296928719">
-Hide buttton working<br/>
-</div>
-</td>
-<td></td>
-<td>1</td>
-<td>test.VideosSection.TestHideVideos@6483f5ae</td></tr>
-<tr>
-<td title='test.VideosSection.TestHideVideos.Validate_VideosSelected()'><b>Validate_VideosSelected</b><br>Test class: test.VideosSection.TestHideVideos<br/>
-<a href="#Output-1372137902" onClick='toggleBox("Output-1372137902", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1372137902" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1372137902">
-All images selected<br/>
-</div>
-</td>
-<td></td>
-<td>3</td>
-<td>test.VideosSection.TestHideVideos@6483f5ae</td></tr>
-<tr>
-<td title='test.VideosSection.TestDeleteVideos.VerifyDeleteVideosBtn_working()'><b>VerifyDeleteVideosBtn_working</b><br>Test class: test.VideosSection.TestDeleteVideos<br/>
-<a href="#Output-1371400311" onClick='toggleBox("Output-1371400311", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1371400311" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1371400311">
-Delete Button Working (Deleted)<br/>
-</div>
-</td>
-<td></td>
-<td>1</td>
-<td>test.VideosSection.TestDeleteVideos@b9afc07</td></tr>
-<tr>
-<td title='test.VideosSection.TestDeleteVideos.VerifyVideosSelected()'><b>VerifyVideosSelected</b><br>Test class: test.VideosSection.TestDeleteVideos<br/>
-<a href="#Output-1779914089" onClick='toggleBox("Output-1779914089", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1779914089" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1779914089">
-Videos Selected<br/>
-</div>
-</td>
-<td></td>
-<td>1</td>
-<td>test.VideosSection.TestDeleteVideos@b9afc07</td></tr>
-<tr>
 <td title='test.VideosSection.TestEditAlbum.clickOnEditAlbum()'><b>clickOnEditAlbum</b><br>Test class: test.VideosSection.TestEditAlbum<br/>
-<a href="#Output-1733056574" onClick='toggleBox("Output-1733056574", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1046084" onClick='toggleBox("Output-1046084", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1733056574" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1733056574">
+<a href="#Output-1046084" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1046084">
 Edit Album button working<br/>
 </div>
 </td>
 <td></td>
-<td>1</td>
-<td>test.VideosSection.TestEditAlbum@aecb35a</td></tr>
+<td>0</td>
+<td>test.VideosSection.TestEditAlbum@15acb9d</td></tr>
 <tr>
 <td title='test.PhotosSection.TestBackButton.pressBackButton()'><b>pressBackButton</b><br>Test class: test.PhotosSection.TestBackButton<br/>
-<a href="#Output-732189840" onClick='toggleBox("Output-732189840", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-22864646" onClick='toggleBox("Output-22864646", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-732189840" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-732189840">
+<a href="#Output-22864646" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-22864646">
 Press back button two time to go back main screen<br/>
 </div>
 </td>
 <td></td>
-<td>3</td>
-<td>test.PhotosSection.TestBackButton@73d4cc9e</td></tr>
-<tr>
-<td title='test.VideosSection.TestOpenVideos.validate_ClickOnVideosSection()'><b>validate_ClickOnVideosSection</b><br>Test class: test.VideosSection.TestOpenVideos<br/>
-<a href="#Output-181078353" onClick='toggleBox("Output-181078353", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-181078353" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-181078353">
-Videos Section open succesfully<br/>
-</div>
-</td>
-<td></td>
-<td>1</td>
-<td>test.VideosSection.TestOpenVideos@7dc222ae</td></tr>
+<td>2</td>
+<td>test.PhotosSection.TestBackButton@1d4937b</td></tr>
 <tr>
 <td title='test.VideosSection.TestCreateNewAlbum.validate_FolderIsOpen()'><b>validate_FolderIsOpen</b><br>Test class: test.VideosSection.TestCreateNewAlbum<br/>
-<a href="#Output-1911978617" onClick='toggleBox("Output-1911978617", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-22220473" onClick='toggleBox("Output-22220473", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1911978617" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1911978617">
+<a href="#Output-22220473" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-22220473">
 Folder Open succesfully<br/>
 </div>
 </td>
 <td></td>
 <td>1</td>
-<td>test.VideosSection.TestCreateNewAlbum@5fcd892a</td></tr>
+<td>test.VideosSection.TestCreateNewAlbum@1b3ee4e</td></tr>
 <tr>
 <td title='test.VideosSection.TestCreateNewAlbum.validate_FolderTitle_correct()'><b>validate_FolderTitle_correct</b><br>Test class: test.VideosSection.TestCreateNewAlbum<br/>
-<a href="#Output-1700421020" onClick='toggleBox("Output-1700421020", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-643456" onClick='toggleBox("Output-643456", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1700421020" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1700421020">
+<a href="#Output-643456" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-643456">
 'AutoCreate' title same as expected<br/>
 </div>
 </td>
 <td></td>
 <td>1</td>
-<td>test.VideosSection.TestCreateNewAlbum@5fcd892a</td></tr>
+<td>test.VideosSection.TestCreateNewAlbum@1b3ee4e</td></tr>
 <tr>
 <td title='test.VideosSection.TestOpenGallery.validate_GalleryTitle_Correct()'><b>validate_GalleryTitle_Correct</b><br>Test class: test.VideosSection.TestOpenGallery<br/>
-<a href="#Output-913746983" onClick='toggleBox("Output-913746983", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-29256521" onClick='toggleBox("Output-29256521", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-913746983" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-913746983">
+<a href="#Output-29256521" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-29256521">
 Open Gallery Title of videos Library is correct<br/>
 </div>
 </td>
 <td></td>
 <td>1</td>
-<td>test.VideosSection.TestOpenGallery@8b87145</td></tr>
+<td>test.VideosSection.TestOpenGallery@17148e2</td></tr>
 <tr>
 <td title='test.VideosSection.TestOpenGallery.validate_ImportFromGalleryBtn_Working()'><b>validate_ImportFromGalleryBtn_Working</b><br>Test class: test.VideosSection.TestOpenGallery<br/>
-<a href="#Output-1366722422" onClick='toggleBox("Output-1366722422", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-5487471" onClick='toggleBox("Output-5487471", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1366722422" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1366722422">
+<a href="#Output-5487471" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-5487471">
 import From gallery working<br/>
 </div>
 </td>
 <td></td>
 <td>1</td>
-<td>test.VideosSection.TestOpenGallery@8b87145</td></tr>
+<td>test.VideosSection.TestOpenGallery@17148e2</td></tr>
 <tr>
 <td title='test.VideosSection.TestEditAlbum.validate_NewFolderCreated()'><b>validate_NewFolderCreated</b><br>Test class: test.VideosSection.TestEditAlbum<br/>
-<a href="#Output-130166095" onClick='toggleBox("Output-130166095", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-20268075" onClick='toggleBox("Output-20268075", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-130166095" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-130166095">
+<a href="#Output-20268075" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-20268075">
+'AutoCreate' Folder Already present in device<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.VideosSection.TestEditAlbum@15acb9d</td></tr>
+<tr>
+<td title='test.VideosSection.TestCreateNewAlbum.validate_NewFolderCreated()'><b>validate_NewFolderCreated</b><br>Test class: test.VideosSection.TestCreateNewAlbum<br/>
+<a href="#Output-476631" onClick='toggleBox("Output-476631", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-476631" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-476631">
 'AutoCreate' Folder created successfully<br/>
 </div>
 </td>
 <td></td>
 <td>4</td>
-<td>test.VideosSection.TestEditAlbum@aecb35a</td></tr>
-<tr>
-<td title='test.VideosSection.TestCreateNewAlbum.validate_NewFolderCreated()'><b>validate_NewFolderCreated</b><br>Test class: test.VideosSection.TestCreateNewAlbum<br/>
-<a href="#Output-1535116392" onClick='toggleBox("Output-1535116392", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1535116392" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1535116392">
-'AutoCreate' Folder created successfully<br/>
-</div>
-</td>
-<td></td>
-<td>3</td>
-<td>test.VideosSection.TestCreateNewAlbum@5fcd892a</td></tr>
+<td>test.VideosSection.TestCreateNewAlbum@1b3ee4e</td></tr>
 <tr>
 <td title='test.VideosSection.TestOpenGallery.validate_PlusButton_Working()'><b>validate_PlusButton_Working</b><br>Test class: test.VideosSection.TestOpenGallery<br/>
-<a href="#Output-380616082" onClick='toggleBox("Output-380616082", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-22661496" onClick='toggleBox("Output-22661496", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-380616082" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-380616082">
+<a href="#Output-22661496" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-22661496">
 Import Plus Button Working fine<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>test.VideosSection.TestOpenGallery@8b87145</td></tr>
-<tr>
-<td title='test.VideosSection.TestOpenVideos.validate_TutorialPopUpSkipped()'><b>validate_TutorialPopUpSkipped</b><br>Test class: test.VideosSection.TestOpenVideos<br/>
-<a href="#Output-1135935001" onClick='toggleBox("Output-1135935001", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1135935001" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1135935001">
-Tutorial Popup Skipped<br/>
-</div>
-</td>
-<td></td>
-<td>2</td>
-<td>test.VideosSection.TestOpenVideos@7dc222ae</td></tr>
-<tr>
-<td title='test.VideosSection.TestOpenGallery.validate_VideosFolder_Open()'><b>validate_VideosFolder_Open</b><br>Test class: test.VideosSection.TestOpenGallery<br/>
-<a href="#Output-1234905692" onClick='toggleBox("Output-1234905692", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1234905692" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1234905692">
-Use 0 Folder for uploading images<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>test.VideosSection.TestOpenGallery@8b87145</td></tr>
-<tr>
-<td title='test.VideosSection.TestOpenGallery.validate_VideosFoundOnDevice()'><b>validate_VideosFoundOnDevice</b><br>Test class: test.VideosSection.TestOpenGallery<br/>
-<a href="#Output-389779746" onClick='toggleBox("Output-389779746", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-389779746" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-389779746">
-Total Folder : 2<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>test.VideosSection.TestOpenGallery@8b87145</td></tr>
-<tr>
-<td title='test.VideosSection.TestOpenVideos.validate_VideosPageTitle_correct()'><b>validate_VideosPageTitle_correct</b><br>Test class: test.VideosSection.TestOpenVideos<br/>
-<a href="#Output-265348534" onClick='toggleBox("Output-265348534", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-265348534" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-265348534">
-Title Equal as per Expected<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>test.VideosSection.TestOpenVideos@7dc222ae</td></tr>
+<td>test.VideosSection.TestOpenGallery@17148e2</td></tr>
 <tr>
 <td title='test.VideosSection.TestEditAlbum.varify_AlbumDeleteWorking()'><b>varify_AlbumDeleteWorking</b><br>Test class: test.VideosSection.TestEditAlbum<br/>
-<a href="#Output-813131188" onClick='toggleBox("Output-813131188", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-3627359" onClick='toggleBox("Output-3627359", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-813131188" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-813131188">
+<a href="#Output-3627359" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-3627359">
 Album Delete button Working<br/>
 </div>
 </td>
 <td></td>
 <td>3</td>
-<td>test.VideosSection.TestEditAlbum@aecb35a</td></tr>
+<td>test.VideosSection.TestEditAlbum@15acb9d</td></tr>
 <tr>
 <td title='test.VideosSection.TestEditAlbum.varify_AlbumRenameWorking()'><b>varify_AlbumRenameWorking</b><br>Test class: test.VideosSection.TestEditAlbum<br/>
-<a href="#Output-925803196" onClick='toggleBox("Output-925803196", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-29758141" onClick='toggleBox("Output-29758141", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-925803196" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-925803196">
+<a href="#Output-29758141" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-29758141">
 Album Rename working<br/>
 </div>
 </td>
 <td></td>
 <td>4</td>
-<td>test.VideosSection.TestEditAlbum@aecb35a</td></tr>
+<td>test.VideosSection.TestEditAlbum@15acb9d</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
 <tr>
-<td title='test.VideosSection.TestUnhideVideos.verify_MediaSelectedToUnhide()'><b>verify_MediaSelectedToUnhide</b><br>Test class: test.VideosSection.TestUnhideVideos<br/>
-<a href="#Output-319426406" onClick='toggleBox("Output-319426406", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-319426406" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-319426406">
-All Videos are selected<br/>
-</div>
-</td>
-<td></td>
-<td>3</td>
-<td>test.VideosSection.TestUnhideVideos@382db087</td></tr>
+<td title='test.VideosSection.TestHideVideos.Validate_All_VideosImported()'><b>Validate_All_VideosImported</b><br>Test class: test.VideosSection.TestHideVideos</td>
+<td><div><pre>java.lang.Throwable: Method TestHideVideos.Validate_All_VideosImported()[pri:4, instance:test.VideosSection.TestHideVideos@1fb8912] depends on not successfully finished methods
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace26095338", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace26095338'><pre>java.lang.Throwable: Method TestHideVideos.Validate_All_VideosImported()[pri:4, instance:test.VideosSection.TestHideVideos@1fb8912] depends on not successfully finished methods
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>test.VideosSection.TestHideVideos@1fb8912</td></tr>
 <tr>
-<td title='test.VideosSection.TestUnhideVideos.verify_UnhideBtnWorking()'><b>verify_UnhideBtnWorking</b><br>Test class: test.VideosSection.TestUnhideVideos<br/>
-<a href="#Output-1704214570" onClick='toggleBox("Output-1704214570", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1704214570" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1704214570">
-Unhide button working fine<br/>
-</div>
-</td>
-<td></td>
-<td>2</td>
-<td>test.VideosSection.TestUnhideVideos@382db087</td></tr>
+<td title='test.VideosSection.TestHideVideos.Validate_HideButton_working()'><b>Validate_HideButton_working</b><br>Test class: test.VideosSection.TestHideVideos</td>
+<td><div><pre>java.lang.Throwable: Method TestHideVideos.Validate_HideButton_working()[pri:3, instance:test.VideosSection.TestHideVideos@1fb8912] depends on not successfully finished methods
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace20228455", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace20228455'><pre>java.lang.Throwable: Method TestHideVideos.Validate_HideButton_working()[pri:3, instance:test.VideosSection.TestHideVideos@1fb8912] depends on not successfully finished methods
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>test.VideosSection.TestHideVideos@1fb8912</td></tr>
+<tr>
+<td title='test.VideosSection.TestHideVideos.Validate_VideosSelected()'><b>Validate_VideosSelected</b><br>Test class: test.VideosSection.TestHideVideos</td>
+<td><div><pre>java.lang.Throwable: Method TestHideVideos.Validate_VideosSelected()[pri:2, instance:test.VideosSection.TestHideVideos@1fb8912] depends on not successfully finished methods
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace8117999", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace8117999'><pre>java.lang.Throwable: Method TestHideVideos.Validate_VideosSelected()[pri:2, instance:test.VideosSection.TestHideVideos@1fb8912] depends on not successfully finished methods
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>test.VideosSection.TestHideVideos@1fb8912</td></tr>
+<tr>
+<td title='test.VideosSection.TestDeleteVideos.VerifyDeleteVideosBtn_working()'><b>VerifyDeleteVideosBtn_working</b><br>Test class: test.VideosSection.TestDeleteVideos</td>
+<td><div><pre>java.lang.Throwable: Method TestDeleteVideos.VerifyDeleteVideosBtn_working()[pri:2, instance:test.VideosSection.TestDeleteVideos@24b813] depends on not successfully finished methods
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace13479536", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace13479536'><pre>java.lang.Throwable: Method TestDeleteVideos.VerifyDeleteVideosBtn_working()[pri:2, instance:test.VideosSection.TestDeleteVideos@24b813] depends on not successfully finished methods
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>test.VideosSection.TestDeleteVideos@24b813</td></tr>
+<tr>
+<td title='test.VideosSection.TestOpenVideos.validate_TutorialPopUpSkipped()'><b>validate_TutorialPopUpSkipped</b><br>Test class: test.VideosSection.TestOpenVideos</td>
+<td><div><pre>java.lang.Throwable: Method TestOpenVideos.validate_TutorialPopUpSkipped()[pri:2, instance:test.VideosSection.TestOpenVideos@3588e6] depends on not successfully finished methods
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace11307619", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace11307619'><pre>java.lang.Throwable: Method TestOpenVideos.validate_TutorialPopUpSkipped()[pri:2, instance:test.VideosSection.TestOpenVideos@3588e6] depends on not successfully finished methods
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>test.VideosSection.TestOpenVideos@3588e6</td></tr>
+<tr>
+<td title='test.VideosSection.TestOpenGallery.validate_VideosFolder_Open()'><b>validate_VideosFolder_Open</b><br>Test class: test.VideosSection.TestOpenGallery</td>
+<td><div><pre>java.lang.Throwable: Method TestOpenGallery.validate_VideosFolder_Open()[pri:5, instance:test.VideosSection.TestOpenGallery@17148e2] depends on not successfully finished methods
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace13908265", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace13908265'><pre>java.lang.Throwable: Method TestOpenGallery.validate_VideosFolder_Open()[pri:5, instance:test.VideosSection.TestOpenGallery@17148e2] depends on not successfully finished methods
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>test.VideosSection.TestOpenGallery@17148e2</td></tr>
+<tr>
+<td title='test.VideosSection.TestOpenVideos.validate_VideosPageTitle_correct()'><b>validate_VideosPageTitle_correct</b><br>Test class: test.VideosSection.TestOpenVideos</td>
+<td><div><pre>java.lang.Throwable: Method TestOpenVideos.validate_VideosPageTitle_correct()[pri:3, instance:test.VideosSection.TestOpenVideos@3588e6] depends on not successfully finished methods
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace13117787", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace13117787'><pre>java.lang.Throwable: Method TestOpenVideos.validate_VideosPageTitle_correct()[pri:3, instance:test.VideosSection.TestOpenVideos@3588e6] depends on not successfully finished methods
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>test.VideosSection.TestOpenVideos@3588e6</td></tr>
+<tr>
+<td title='test.VideosSection.TestUnhideVideos.verify_UnhideBtnWorking()'><b>verify_UnhideBtnWorking</b><br>Test class: test.VideosSection.TestUnhideVideos</td>
+<td><div><pre>java.lang.Throwable: Method TestUnhideVideos.verify_UnhideBtnWorking()[pri:2, instance:test.VideosSection.TestUnhideVideos@35e847] depends on not successfully finished methods
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace3164998", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace3164998'><pre>java.lang.Throwable: Method TestUnhideVideos.verify_UnhideBtnWorking()[pri:2, instance:test.VideosSection.TestUnhideVideos@35e847] depends on not successfully finished methods
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>test.VideosSection.TestUnhideVideos@35e847</td></tr>
 </table><p>
 </body>
 </html>

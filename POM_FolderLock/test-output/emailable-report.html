@@ -8,323 +8,625 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num attn">3</td><td class="num">0</td><td class="num">0</td><td class="num">50</td><td></td><td></td></tr>
+<tr><th colspan="8">FolderLock Suite</th></tr>
+<tr><td><a href="#t0">Test Photos Section Complete</a></td><td class="num">17</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">9</td><td class="num">52,102</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Test Videos section</a></td><td class="num">11</td><td class="num attn">8</td><td class="num">0</td><td class="num attn">5</td><td class="num">30,621</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">28</th><th class="num attn">9</th><th class="num">0</th><th class="num attn">14</th><th class="num">82,723</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">test.PhotosSection.TestLoginWithPin</td><td><a href="#m0">setup</a></td><td rowspan="1">1612953059552</td><td rowspan="1">6358</td></tr><tr><th colspan="4">Default test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">test.PhotosSection.TestLoginWithPin</td><td><a href="#m1">tearDown</a></td><td rowspan="1">1612953066111</td><td rowspan="1">-1612953066111</td></tr><tr><th colspan="4">Default test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="3">test.PhotosSection.TestLoginWithPin</td><td><a href="#m2">validate_DashboardApear_Correct</a></td><td rowspan="1">1612953065972</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m3">validate_pin_working_correct</a></td><td rowspan="1">1612953065956</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m4">validate_ratingPopUpSkiped</a></td><td rowspan="1">1612953065965</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">FolderLock Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test Photos Section Complete &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">test.PhotosSection.TestDeletePhotos</td><td><a href="#m0">VerifyImageSelected</a></td><td rowspan="1">1614169853990</td><td rowspan="1">1246</td></tr><tr class="failedeven"><td><a href="#m1">VeryDeletePhotosBtn_working</a></td><td rowspan="1">1614169855563</td><td rowspan="1">1212</td></tr><tr class="failedodd"><td rowspan="1">test.PhotosSection.TestLoginWithPin</td><td><a href="#m2">validate_pin_working_correct</a></td><td rowspan="1">1614169810571</td><td rowspan="1">1413</td></tr><tr class="failedeven"><td rowspan="1">test.PhotosSection.TestOpenGallery</td><td><a href="#m3">validate_ImagesFoundOnDevice</a></td><td rowspan="1">1614169847416</td><td rowspan="1">1278</td></tr><tr class="failedodd"><td rowspan="2">test.PhotosSection.TestUnhidePhotos</td><td><a href="#m4">verify_MediaSelectedToUnhide</a></td><td rowspan="1">1614169857045</td><td rowspan="1">1168</td></tr><tr class="failedodd"><td><a href="#m5">verify_UnhideBtnWorking</a></td><td rowspan="1">1614169858492</td><td rowspan="1">1288</td></tr><tr class="failedeven"><td rowspan="3">test.PhotosSection.TestVerifyHidePhotos</td><td><a href="#m6">Validate_All_ImagesUpladed</a></td><td rowspan="1">1614169852426</td><td rowspan="1">1252</td></tr><tr class="failedeven"><td><a href="#m7">Validate_CountImages</a></td><td rowspan="1">1614169849088</td><td rowspan="1">1170</td></tr><tr class="failedeven"><td><a href="#m8">Validate_ImagesSelected</a></td><td rowspan="1">1614169850598</td><td rowspan="1">1166</td></tr><tr><th colspan="4">Test Photos Section Complete &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">test.PhotosSection.TestOpenGallery</td><td><a href="#m9">validate_ImageFolder_Open</a></td><td rowspan="1">1614169849086</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test Photos Section Complete &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">test.PhotosSection.TestBackButton</td><td><a href="#m10">pressBackButton</a></td><td rowspan="1">1614169860105</td><td rowspan="1">2541</td></tr><tr class="passedodd"><td rowspan="3">test.PhotosSection.TestCreateNewAlbum</td><td><a href="#m11">validate_FolderIsOpen</a></td><td rowspan="1">1614169839900</td><td rowspan="1">2009</td></tr><tr class="passedodd"><td><a href="#m12">validate_FolderTitle_correct</a></td><td rowspan="1">1614169841909</td><td rowspan="1">2430</td></tr><tr class="passedodd"><td><a href="#m13">validate_NewFolderCreated</a></td><td rowspan="1">1614169835676</td><td rowspan="1">4223</td></tr><tr class="passedeven"><td rowspan="4">test.PhotosSection.TestEditAlbum</td><td><a href="#m14">clickOnEditAlbum</a></td><td rowspan="1">1614169826062</td><td rowspan="1">1420</td></tr><tr class="passedeven"><td><a href="#m15">validate_NewFolderCreated</a></td><td rowspan="1">1614169821955</td><td rowspan="1">4106</td></tr><tr class="passedeven"><td><a href="#m16">varify_AlbumDeleteWorking</a></td><td rowspan="1">1614169831605</td><td rowspan="1">4070</td></tr><tr class="passedeven"><td><a href="#m17">varify_AlbumRenameWorking</a></td><td rowspan="1">1614169827483</td><td rowspan="1">4121</td></tr><tr class="passedodd"><td rowspan="2">test.PhotosSection.TestLoginWithPin</td><td><a href="#m18">validate_DashboardApear_Correct</a></td><td rowspan="1">1614169815642</td><td rowspan="1">464</td></tr><tr class="passedodd"><td><a href="#m19">validate_ratingPopUpSkiped</a></td><td rowspan="1">1614169814446</td><td rowspan="1">1195</td></tr><tr class="passedeven"><td rowspan="3">test.PhotosSection.TestOpenGallery</td><td><a href="#m20">validate_GalleryTitle_Correct</a></td><td rowspan="1">1614169846273</td><td rowspan="1">1143</td></tr><tr class="passedeven"><td><a href="#m21">validate_ImportFromGalleryBtn_Working</a></td><td rowspan="1">1614169844838</td><td rowspan="1">1434</td></tr><tr class="passedeven"><td><a href="#m22">validate_PlusButton_Working</a></td><td rowspan="1">1614169844340</td><td rowspan="1">498</td></tr><tr class="passedodd"><td rowspan="3">test.PhotosSection.TestOpenPhotos</td><td><a href="#m23">validate_ClickOnPhotosSection</a></td><td rowspan="1">1614169816108</td><td rowspan="1">515</td></tr><tr class="passedodd"><td><a href="#m24">validate_PhotosPageTitle_correct</a></td><td rowspan="1">1614169820933</td><td rowspan="1">1021</td></tr><tr class="passedodd"><td><a href="#m25">validate_TutorialPopUpSkipped</a></td><td rowspan="1">1614169816624</td><td rowspan="1">4307</td></tr><tr class="passedeven"><td rowspan="1">test.PhotosSection.TestVerifyHidePhotos</td><td><a href="#m26">Validate_HideButton_working</a></td><td rowspan="1">1614169852056</td><td rowspan="1">369</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Test Videos section &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">test.VideosSection.TestDeleteVideos</td><td><a href="#m27">VerifyVideosSelected</a></td><td rowspan="1">1614169888092</td><td rowspan="1">1223</td></tr><tr class="failedodd"><td rowspan="1">test.VideosSection.TestHideVideos</td><td><a href="#m28">Validate_CountVideos</a></td><td rowspan="1">1614169886567</td><td rowspan="1">1163</td></tr><tr class="failedeven"><td rowspan="1">test.VideosSection.TestOpenGallery</td><td><a href="#m29">validate_VideosFoundOnDevice</a></td><td rowspan="1">1614169885145</td><td rowspan="1">1165</td></tr><tr class="failedodd"><td rowspan="1">test.VideosSection.TestOpenVideos</td><td><a href="#m30">validate_ClickOnVideosSection</a></td><td rowspan="1">1614169862704</td><td rowspan="1">1761</td></tr><tr class="failedeven"><td rowspan="1">test.VideosSection.TestUnhideVideos</td><td><a href="#m31">verify_MediaSelectedToUnhide</a></td><td rowspan="1">1614169889659</td><td rowspan="1">1224</td></tr><tr><th colspan="4">Test Videos section &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">test.VideosSection.TestDeleteVideos</td><td><a href="#m32">VerifyDeleteVideosBtn_working</a></td><td rowspan="1">1614169889657</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="3">test.VideosSection.TestHideVideos</td><td><a href="#m33">Validate_All_VideosImported</a></td><td rowspan="1">1614169888091</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m34">Validate_HideButton_working</a></td><td rowspan="1">1614169888090</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m35">Validate_VideosSelected</a></td><td rowspan="1">1614169888088</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td rowspan="1">test.VideosSection.TestOpenGallery</td><td><a href="#m36">validate_VideosFolder_Open</a></td><td rowspan="1">1614169886565</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="2">test.VideosSection.TestOpenVideos</td><td><a href="#m37">validate_TutorialPopUpSkipped</a></td><td rowspan="1">1614169864809</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m38">validate_VideosPageTitle_correct</a></td><td rowspan="1">1614169864810</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td rowspan="1">test.VideosSection.TestUnhideVideos</td><td><a href="#m39">verify_UnhideBtnWorking</a></td><td rowspan="1">1614169891150</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test Videos section &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">test.PhotosSection.TestBackButton</td><td><a href="#m40">pressBackButton</a></td><td rowspan="1">1614169891151</td><td rowspan="1">2171</td></tr><tr class="passedodd"><td rowspan="3">test.VideosSection.TestCreateNewAlbum</td><td><a href="#m41">validate_FolderIsOpen</a></td><td rowspan="1">1614169878185</td><td rowspan="1">1914</td></tr><tr class="passedodd"><td><a href="#m42">validate_FolderTitle_correct</a></td><td rowspan="1">1614169880099</td><td rowspan="1">1972</td></tr><tr class="passedodd"><td><a href="#m43">validate_NewFolderCreated</a></td><td rowspan="1">1614169873728</td><td rowspan="1">4456</td></tr><tr class="passedeven"><td rowspan="4">test.VideosSection.TestEditAlbum</td><td><a href="#m44">clickOnEditAlbum</a></td><td rowspan="1">1614169865075</td><td rowspan="1">564</td></tr><tr class="passedeven"><td><a href="#m45">validate_NewFolderCreated</a></td><td rowspan="1">1614169864811</td><td rowspan="1">263</td></tr><tr class="passedeven"><td><a href="#m46">varify_AlbumDeleteWorking</a></td><td rowspan="1">1614169869766</td><td rowspan="1">3961</td></tr><tr class="passedeven"><td><a href="#m47">varify_AlbumRenameWorking</a></td><td rowspan="1">1614169865640</td><td rowspan="1">4125</td></tr><tr class="passedodd"><td rowspan="3">test.VideosSection.TestOpenGallery</td><td><a href="#m48">validate_GalleryTitle_Correct</a></td><td rowspan="1">1614169883838</td><td rowspan="1">1307</td></tr><tr class="passedodd"><td><a href="#m49">validate_ImportFromGalleryBtn_Working</a></td><td rowspan="1">1614169882463</td><td rowspan="1">1374</td></tr><tr class="passedodd"><td><a href="#m50">validate_PlusButton_Working</a></td><td rowspan="1">1614169882072</td><td rowspan="1">390</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">test.PhotosSection.TestLoginWithPin#setup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Connection refused: connect
+<h2>Test Photos Section Complete</h2><h3 id="m0">test.PhotosSection.TestDeletePhotos#VerifyImageSelected</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Click to see Screenshot<br/><a target="_blank" href=Wed_Feb_24_17_30_55_PKT_2021.jpg>Screenshot</a><br/><br><br/><br><br/><a target="_blank" href=Wed_Feb_24_17_30_55_PKT_2021.jpg><img src=Wed_Feb_24_17_30_55_PKT_2021.jpg height=200 width=200></img></a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (CLASS_NAME=&apos;android.widget.GridView&apos;))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;FARIZ-PC&apos;, ip: &apos;192.168.79.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
-Driver info: driver.version: AndroidDriver
-	at io.appium.java_client.remote.AppiumCommandExecutor.lambda$6(AppiumCommandExecutor.java:259)
-	at java.util.Optional.orElseGet(Unknown Source)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:258)
+System info: host: &apos;FARIZ-PC&apos;, ip: &apos;192.168.79.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_112&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appBuildVersion: , appPackage: com.newsoftwares.folderlock_v1, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: true, autoWebview: false, browserName: , commandTimeouts: 120000, desired: {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appPackage: com.newsoftwares.folderlock_v1, autoGrantPermissions: true, browserName: , deviceName: SM-G950U, fullReset: false, noReset: true, platformName: Android, platformVersion: 9}, device.category: PHONE, device.majorVersion: 9, device.manufacture: Genymotion, device.model: Custom Phone, device.name: Custom Phone, device.os: Android, device.screenSize: 1080x2160, device.serialNumber: 192.168.79.105:5555, device.version: 9, deviceName: SM-G950U, deviceUDID: 192.168.79.105:5555, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: true, platform: ANDROID, platformName: Android, platformVersion: 9, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Fariz Anjum\appium..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 02/24/21 05:30 PM, udid: 192.168.79.105:5555, useKeystore: false, waitForDeviceTimeout: 120000}
+Session ID: a1a7a9b7-84bc-441a-a32b-492519d1a50b
+*** Element info: {Using=class name, value=android.widget.GridView}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
 	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
 	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:338)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:37)
-	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:89)
-	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:99)
-	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:96)
-	at Pages.BaseClass.setup(BaseClass.java:35)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
-	at java.net.PlainSocketImpl.connect(Unknown Source)
-	at java.net.SocksSocketImpl.connect(Unknown Source)
-	at java.net.Socket.connect(Unknown Source)
-	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
-	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
-	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
-	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
-	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
-	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
-	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
-	at okhttp3.RealCall.execute(RealCall.java:77)
-	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
-	at io.appium.java_client.remote.AppiumCommandExecutor.lambda$1(AppiumCommandExecutor.java:162)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:193)
-	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:225)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
-	... 31 more
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">test.PhotosSection.TestLoginWithPin#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">test.PhotosSection.TestLoginWithPin#validate_DashboardApear_Correct</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Connection refused: connect
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByClassName(DefaultGenericMobileDriver.java:125)
+	at io.appium.java_client.AppiumDriver.findElementByClassName(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByClassName(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.findElement(Unknown Source)
+	at Pages.SelectMedia.longPress(SelectMedia.java:37)
+	at test.PhotosSection.TestDeletePhotos.VerifyImageSelected(TestDeletePhotos.java:19)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">test.PhotosSection.TestDeletePhotos#VeryDeletePhotosBtn_working</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Click to see Screenshot<br/><a target="_blank" href=Wed_Feb_24_17_30_57_PKT_2021.jpg>Screenshot</a><br/><br><br/><br><br/><a target="_blank" href=Wed_Feb_24_17_30_57_PKT_2021.jpg><img src=Wed_Feb_24_17_30_57_PKT_2021.jpg height=200 width=200></img></a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (XPATH=&apos;//*[@resource-id=&apos;com.newsoftwares.folderlock_v1:id/action_delete&apos;]&apos;))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;FARIZ-PC&apos;, ip: &apos;192.168.79.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
-Driver info: driver.version: AndroidDriver
-	at io.appium.java_client.remote.AppiumCommandExecutor.lambda$6(AppiumCommandExecutor.java:259)
-	at java.util.Optional.orElseGet(Unknown Source)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:258)
+System info: host: &apos;FARIZ-PC&apos;, ip: &apos;192.168.79.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_112&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appBuildVersion: , appPackage: com.newsoftwares.folderlock_v1, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: true, autoWebview: false, browserName: , commandTimeouts: 120000, desired: {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appPackage: com.newsoftwares.folderlock_v1, autoGrantPermissions: true, browserName: , deviceName: SM-G950U, fullReset: false, noReset: true, platformName: Android, platformVersion: 9}, device.category: PHONE, device.majorVersion: 9, device.manufacture: Genymotion, device.model: Custom Phone, device.name: Custom Phone, device.os: Android, device.screenSize: 1080x2160, device.serialNumber: 192.168.79.105:5555, device.version: 9, deviceName: SM-G950U, deviceUDID: 192.168.79.105:5555, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: true, platform: ANDROID, platformName: Android, platformVersion: 9, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Fariz Anjum\appium..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 02/24/21 05:30 PM, udid: 192.168.79.105:5555, useKeystore: false, waitForDeviceTimeout: 120000}
+Session ID: a1a7a9b7-84bc-441a-a32b-492519d1a50b
+*** Element info: {Using=xpath, value=//*[@resource-id=&apos;com.newsoftwares.folderlock_v1:id/action_delete&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
 	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
 	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:338)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:37)
-	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:89)
-	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:99)
-	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:96)
-	at Pages.BaseClass.setup(BaseClass.java:35)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
-	at java.net.PlainSocketImpl.connect(Unknown Source)
-	at java.net.SocksSocketImpl.connect(Unknown Source)
-	at java.net.Socket.connect(Unknown Source)
-	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
-	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
-	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
-	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
-	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
-	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
-	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
-	at okhttp3.RealCall.execute(RealCall.java:77)
-	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
-	at io.appium.java_client.remote.AppiumCommandExecutor.lambda$1(AppiumCommandExecutor.java:162)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:193)
-	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:225)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
-	... 31 more
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">test.PhotosSection.TestLoginWithPin#validate_pin_working_correct</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Connection refused: connect
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at Pages.BtnDelete.clickOnDeleteBtn(BtnDelete.java:22)
+	at test.PhotosSection.TestDeletePhotos.VeryDeletePhotosBtn_working(TestDeletePhotos.java:26)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">test.PhotosSection.TestLoginWithPin#validate_pin_working_correct</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Click to see Screenshot<br/><a target="_blank" href=Wed_Feb_24_17_30_14_PKT_2021.jpg>Screenshot</a><br/><br><br/><br><br/><a target="_blank" href=Wed_Feb_24_17_30_14_PKT_2021.jpg><img src=Wed_Feb_24_17_30_14_PKT_2021.jpg height=200 width=200></img></a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (XPATH=&apos;//*[@id=&apos;txtPassword&apos;]&apos;))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;FARIZ-PC&apos;, ip: &apos;192.168.79.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
-Driver info: driver.version: AndroidDriver
-	at io.appium.java_client.remote.AppiumCommandExecutor.lambda$6(AppiumCommandExecutor.java:259)
-	at java.util.Optional.orElseGet(Unknown Source)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:258)
+System info: host: &apos;FARIZ-PC&apos;, ip: &apos;192.168.79.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_112&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appBuildVersion: , appPackage: com.newsoftwares.folderlock_v1, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: true, autoWebview: false, browserName: , commandTimeouts: 120000, desired: {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appPackage: com.newsoftwares.folderlock_v1, autoGrantPermissions: true, browserName: , deviceName: SM-G950U, fullReset: false, noReset: true, platformName: Android, platformVersion: 9}, device.category: PHONE, device.majorVersion: 9, device.manufacture: Genymotion, device.model: Custom Phone, device.name: Custom Phone, device.os: Android, device.screenSize: 1080x2160, device.serialNumber: 192.168.79.105:5555, device.version: 9, deviceName: SM-G950U, deviceUDID: 192.168.79.105:5555, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: true, platform: ANDROID, platformName: Android, platformVersion: 9, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Fariz Anjum\appium..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 02/24/21 05:30 PM, udid: 192.168.79.105:5555, useKeystore: false, waitForDeviceTimeout: 120000}
+Session ID: a1a7a9b7-84bc-441a-a32b-492519d1a50b
+*** Element info: {Using=xpath, value=//*[@id=&apos;txtPassword&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
 	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
 	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:338)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:37)
-	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:89)
-	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:99)
-	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:96)
-	at Pages.BaseClass.setup(BaseClass.java:35)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
-	at java.net.PlainSocketImpl.connect(Unknown Source)
-	at java.net.SocksSocketImpl.connect(Unknown Source)
-	at java.net.Socket.connect(Unknown Source)
-	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
-	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
-	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
-	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
-	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
-	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
-	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
-	at okhttp3.RealCall.execute(RealCall.java:77)
-	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
-	at io.appium.java_client.remote.AppiumCommandExecutor.lambda$1(AppiumCommandExecutor.java:162)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:193)
-	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:225)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
-	... 31 more
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">test.PhotosSection.TestLoginWithPin#validate_ratingPopUpSkiped</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Connection refused: connect
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at Pages.LoginWithPin.performLogin(LoginWithPin.java:19)
+	at test.PhotosSection.TestLoginWithPin.validate_pin_working_correct(TestLoginWithPin.java:26)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">test.PhotosSection.TestOpenGallery#validate_ImagesFoundOnDevice</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Click to see Screenshot<br/><a target="_blank" href=Wed_Feb_24_17_30_49_PKT_2021.jpg>Screenshot</a><br/><br><br/><br><br/><a target="_blank" href=Wed_Feb_24_17_30_49_PKT_2021.jpg><img src=Wed_Feb_24_17_30_49_PKT_2021.jpg height=200 width=200></img></a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (XPATH=&apos;//*[@resource-id=&apos;com.newsoftwares.folderlock_v1:id/album_import_ListView&apos;]&apos;))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;FARIZ-PC&apos;, ip: &apos;192.168.79.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
-Driver info: driver.version: AndroidDriver
-	at io.appium.java_client.remote.AppiumCommandExecutor.lambda$6(AppiumCommandExecutor.java:259)
-	at java.util.Optional.orElseGet(Unknown Source)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:258)
+System info: host: &apos;FARIZ-PC&apos;, ip: &apos;192.168.79.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_112&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appBuildVersion: , appPackage: com.newsoftwares.folderlock_v1, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: true, autoWebview: false, browserName: , commandTimeouts: 120000, desired: {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appPackage: com.newsoftwares.folderlock_v1, autoGrantPermissions: true, browserName: , deviceName: SM-G950U, fullReset: false, noReset: true, platformName: Android, platformVersion: 9}, device.category: PHONE, device.majorVersion: 9, device.manufacture: Genymotion, device.model: Custom Phone, device.name: Custom Phone, device.os: Android, device.screenSize: 1080x2160, device.serialNumber: 192.168.79.105:5555, device.version: 9, deviceName: SM-G950U, deviceUDID: 192.168.79.105:5555, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: true, platform: ANDROID, platformName: Android, platformVersion: 9, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Fariz Anjum\appium..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 02/24/21 05:30 PM, udid: 192.168.79.105:5555, useKeystore: false, waitForDeviceTimeout: 120000}
+Session ID: a1a7a9b7-84bc-441a-a32b-492519d1a50b
+*** Element info: {Using=xpath, value=//*[@resource-id=&apos;com.newsoftwares.folderlock_v1:id/album_import_ListView&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
 	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
 	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:338)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:37)
-	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:89)
-	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:99)
-	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:96)
-	at Pages.BaseClass.setup(BaseClass.java:35)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
-	at java.net.PlainSocketImpl.connect(Unknown Source)
-	at java.net.SocksSocketImpl.connect(Unknown Source)
-	at java.net.Socket.connect(Unknown Source)
-	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
-	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
-	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
-	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
-	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
-	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
-	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
-	at okhttp3.RealCall.execute(RealCall.java:77)
-	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
-	at io.appium.java_client.remote.AppiumCommandExecutor.lambda$1(AppiumCommandExecutor.java:162)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:193)
-	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:225)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at Pages.CheckMediaInDevice.countMediaFolder(CheckMediaInDevice.java:26)
+	at test.PhotosSection.TestOpenGallery.validate_ImagesFoundOnDevice(TestOpenGallery.java:40)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">test.PhotosSection.TestUnhidePhotos#verify_MediaSelectedToUnhide</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Click to see Screenshot<br/><a target="_blank" href=Wed_Feb_24_17_30_58_PKT_2021.jpg>Screenshot</a><br/><br><br/><br><br/><a target="_blank" href=Wed_Feb_24_17_30_58_PKT_2021.jpg><img src=Wed_Feb_24_17_30_58_PKT_2021.jpg height=200 width=200></img></a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (CLASS_NAME=&apos;android.widget.GridView&apos;))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;FARIZ-PC&apos;, ip: &apos;192.168.79.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_112&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appBuildVersion: , appPackage: com.newsoftwares.folderlock_v1, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: true, autoWebview: false, browserName: , commandTimeouts: 120000, desired: {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appPackage: com.newsoftwares.folderlock_v1, autoGrantPermissions: true, browserName: , deviceName: SM-G950U, fullReset: false, noReset: true, platformName: Android, platformVersion: 9}, device.category: PHONE, device.majorVersion: 9, device.manufacture: Genymotion, device.model: Custom Phone, device.name: Custom Phone, device.os: Android, device.screenSize: 1080x2160, device.serialNumber: 192.168.79.105:5555, device.version: 9, deviceName: SM-G950U, deviceUDID: 192.168.79.105:5555, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: true, platform: ANDROID, platformName: Android, platformVersion: 9, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Fariz Anjum\appium..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 02/24/21 05:30 PM, udid: 192.168.79.105:5555, useKeystore: false, waitForDeviceTimeout: 120000}
+Session ID: a1a7a9b7-84bc-441a-a32b-492519d1a50b
+*** Element info: {Using=class name, value=android.widget.GridView}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
-	... 31 more
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByClassName(DefaultGenericMobileDriver.java:125)
+	at io.appium.java_client.AppiumDriver.findElementByClassName(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByClassName(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.findElement(Unknown Source)
+	at Pages.SelectMedia.longPress(SelectMedia.java:37)
+	at test.PhotosSection.TestUnhidePhotos.verify_MediaSelectedToUnhide(TestUnhidePhotos.java:19)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">test.PhotosSection.TestUnhidePhotos#verify_UnhideBtnWorking</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Click to see Screenshot<br/><a target="_blank" href=Wed_Feb_24_17_31_00_PKT_2021.jpg>Screenshot</a><br/><br><br/><br><br/><a target="_blank" href=Wed_Feb_24_17_31_00_PKT_2021.jpg><img src=Wed_Feb_24_17_31_00_PKT_2021.jpg height=200 width=200></img></a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (XPATH=&apos;//*[@resource-id=&apos;com.newsoftwares.folderlock_v1:id/action_unlock&apos;]&apos;))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;FARIZ-PC&apos;, ip: &apos;192.168.79.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_112&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appBuildVersion: , appPackage: com.newsoftwares.folderlock_v1, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: true, autoWebview: false, browserName: , commandTimeouts: 120000, desired: {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appPackage: com.newsoftwares.folderlock_v1, autoGrantPermissions: true, browserName: , deviceName: SM-G950U, fullReset: false, noReset: true, platformName: Android, platformVersion: 9}, device.category: PHONE, device.majorVersion: 9, device.manufacture: Genymotion, device.model: Custom Phone, device.name: Custom Phone, device.os: Android, device.screenSize: 1080x2160, device.serialNumber: 192.168.79.105:5555, device.version: 9, deviceName: SM-G950U, deviceUDID: 192.168.79.105:5555, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: true, platform: ANDROID, platformName: Android, platformVersion: 9, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Fariz Anjum\appium..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 02/24/21 05:30 PM, udid: 192.168.79.105:5555, useKeystore: false, waitForDeviceTimeout: 120000}
+Session ID: a1a7a9b7-84bc-441a-a32b-492519d1a50b
+*** Element info: {Using=xpath, value=//*[@resource-id=&apos;com.newsoftwares.folderlock_v1:id/action_unlock&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at Pages.UnhideButton.clickOnUnhideButton(UnhideButton.java:24)
+	at test.PhotosSection.TestUnhidePhotos.verify_UnhideBtnWorking(TestUnhidePhotos.java:27)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">test.PhotosSection.TestVerifyHidePhotos#Validate_All_ImagesUpladed</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Click to see Screenshot<br/><a target="_blank" href=Wed_Feb_24_17_30_53_PKT_2021.jpg>Screenshot</a><br/><br><br/><br><br/><a target="_blank" href=Wed_Feb_24_17_30_53_PKT_2021.jpg><img src=Wed_Feb_24_17_30_53_PKT_2021.jpg height=200 width=200></img></a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (CLASS_NAME=&apos;android.widget.GridView&apos;))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;FARIZ-PC&apos;, ip: &apos;192.168.79.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_112&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appBuildVersion: , appPackage: com.newsoftwares.folderlock_v1, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: true, autoWebview: false, browserName: , commandTimeouts: 120000, desired: {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appPackage: com.newsoftwares.folderlock_v1, autoGrantPermissions: true, browserName: , deviceName: SM-G950U, fullReset: false, noReset: true, platformName: Android, platformVersion: 9}, device.category: PHONE, device.majorVersion: 9, device.manufacture: Genymotion, device.model: Custom Phone, device.name: Custom Phone, device.os: Android, device.screenSize: 1080x2160, device.serialNumber: 192.168.79.105:5555, device.version: 9, deviceName: SM-G950U, deviceUDID: 192.168.79.105:5555, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: true, platform: ANDROID, platformName: Android, platformVersion: 9, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Fariz Anjum\appium..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 02/24/21 05:30 PM, udid: 192.168.79.105:5555, useKeystore: false, waitForDeviceTimeout: 120000}
+Session ID: a1a7a9b7-84bc-441a-a32b-492519d1a50b
+*** Element info: {Using=class name, value=android.widget.GridView}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByClassName(DefaultGenericMobileDriver.java:125)
+	at io.appium.java_client.AppiumDriver.findElementByClassName(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByClassName(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at Pages.SelectMedia.countUploadedImages(SelectMedia.java:49)
+	at test.PhotosSection.TestVerifyHidePhotos.Validate_All_ImagesUpladed(TestVerifyHidePhotos.java:47)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">test.PhotosSection.TestVerifyHidePhotos#Validate_CountImages</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Click to see Screenshot<br/><a target="_blank" href=Wed_Feb_24_17_30_50_PKT_2021.jpg>Screenshot</a><br/><br><br/><br><br/><a target="_blank" href=Wed_Feb_24_17_30_50_PKT_2021.jpg><img src=Wed_Feb_24_17_30_50_PKT_2021.jpg height=200 width=200></img></a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (CLASS_NAME=&apos;android.widget.GridView&apos;))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;FARIZ-PC&apos;, ip: &apos;192.168.79.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_112&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appBuildVersion: , appPackage: com.newsoftwares.folderlock_v1, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: true, autoWebview: false, browserName: , commandTimeouts: 120000, desired: {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appPackage: com.newsoftwares.folderlock_v1, autoGrantPermissions: true, browserName: , deviceName: SM-G950U, fullReset: false, noReset: true, platformName: Android, platformVersion: 9}, device.category: PHONE, device.majorVersion: 9, device.manufacture: Genymotion, device.model: Custom Phone, device.name: Custom Phone, device.os: Android, device.screenSize: 1080x2160, device.serialNumber: 192.168.79.105:5555, device.version: 9, deviceName: SM-G950U, deviceUDID: 192.168.79.105:5555, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: true, platform: ANDROID, platformName: Android, platformVersion: 9, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Fariz Anjum\appium..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 02/24/21 05:30 PM, udid: 192.168.79.105:5555, useKeystore: false, waitForDeviceTimeout: 120000}
+Session ID: a1a7a9b7-84bc-441a-a32b-492519d1a50b
+*** Element info: {Using=class name, value=android.widget.GridView}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByClassName(DefaultGenericMobileDriver.java:125)
+	at io.appium.java_client.AppiumDriver.findElementByClassName(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByClassName(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at Pages.SelectMedia.coutLibraryImages(SelectMedia.java:32)
+	at test.PhotosSection.TestVerifyHidePhotos.Validate_CountImages(TestVerifyHidePhotos.java:22)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">test.PhotosSection.TestVerifyHidePhotos#Validate_ImagesSelected</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Click to see Screenshot<br/><a target="_blank" href=Wed_Feb_24_17_30_52_PKT_2021.jpg>Screenshot</a><br/><br><br/><br><br/><a target="_blank" href=Wed_Feb_24_17_30_52_PKT_2021.jpg><img src=Wed_Feb_24_17_30_52_PKT_2021.jpg height=200 width=200></img></a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (CLASS_NAME=&apos;android.widget.GridView&apos;))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;FARIZ-PC&apos;, ip: &apos;192.168.79.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_112&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appBuildVersion: , appPackage: com.newsoftwares.folderlock_v1, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: true, autoWebview: false, browserName: , commandTimeouts: 120000, desired: {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appPackage: com.newsoftwares.folderlock_v1, autoGrantPermissions: true, browserName: , deviceName: SM-G950U, fullReset: false, noReset: true, platformName: Android, platformVersion: 9}, device.category: PHONE, device.majorVersion: 9, device.manufacture: Genymotion, device.model: Custom Phone, device.name: Custom Phone, device.os: Android, device.screenSize: 1080x2160, device.serialNumber: 192.168.79.105:5555, device.version: 9, deviceName: SM-G950U, deviceUDID: 192.168.79.105:5555, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: true, platform: ANDROID, platformName: Android, platformVersion: 9, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Fariz Anjum\appium..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 02/24/21 05:30 PM, udid: 192.168.79.105:5555, useKeystore: false, waitForDeviceTimeout: 120000}
+Session ID: a1a7a9b7-84bc-441a-a32b-492519d1a50b
+*** Element info: {Using=class name, value=android.widget.GridView}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByClassName(DefaultGenericMobileDriver.java:125)
+	at io.appium.java_client.AppiumDriver.findElementByClassName(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByClassName(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at Pages.SelectMedia.selectImages(SelectMedia.java:41)
+	at test.PhotosSection.TestVerifyHidePhotos.Validate_ImagesSelected(TestVerifyHidePhotos.java:33)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">test.PhotosSection.TestOpenGallery#validate_ImageFolder_Open</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method TestOpenGallery.validate_ImageFolder_Open()[pri:5, instance:test.PhotosSection.TestOpenGallery@2b4c69] depends on not successfully finished methods
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">test.PhotosSection.TestBackButton#pressBackButton</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Press back button two time to go back main screen</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">test.PhotosSection.TestCreateNewAlbum#validate_FolderIsOpen</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Folder Open succesfully</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">test.PhotosSection.TestCreateNewAlbum#validate_FolderTitle_correct</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">'AutoCreate' title same as expected</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">test.PhotosSection.TestCreateNewAlbum#validate_NewFolderCreated</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">'AutoCreate' Folder created successfully</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">test.PhotosSection.TestEditAlbum#clickOnEditAlbum</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Edit Album button working</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">test.PhotosSection.TestEditAlbum#validate_NewFolderCreated</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">'AutoCreate' Folder created successfully</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">test.PhotosSection.TestEditAlbum#varify_AlbumDeleteWorking</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Album Delete button Working</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">test.PhotosSection.TestEditAlbum#varify_AlbumRenameWorking</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Album Rename working</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">test.PhotosSection.TestLoginWithPin#validate_DashboardApear_Correct</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Dashoard Title 'Folder Lock' is correct</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">test.PhotosSection.TestLoginWithPin#validate_ratingPopUpSkiped</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Rating PopUp does't appear</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">test.PhotosSection.TestOpenGallery#validate_GalleryTitle_Correct</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Open Gallery Title of image Library is correct</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">test.PhotosSection.TestOpenGallery#validate_ImportFromGalleryBtn_Working</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">import From gallery working</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m22">test.PhotosSection.TestOpenGallery#validate_PlusButton_Working</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Import Plus Button Working fine</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m23">test.PhotosSection.TestOpenPhotos#validate_ClickOnPhotosSection</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Photos Section open succesfully</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m24">test.PhotosSection.TestOpenPhotos#validate_PhotosPageTitle_correct</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Title Equal as per Expected</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m25">test.PhotosSection.TestOpenPhotos#validate_TutorialPopUpSkipped</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Tutorial Popup Skipped</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m26">test.PhotosSection.TestVerifyHidePhotos#Validate_HideButton_working</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Hide buttton working</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test Videos section</h2><h3 id="m27">test.VideosSection.TestDeleteVideos#VerifyVideosSelected</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Click to see Screenshot<br/><a target="_blank" href=Wed_Feb_24_17_31_29_PKT_2021.jpg>Screenshot</a><br/><br><br/><br><br/><a target="_blank" href=Wed_Feb_24_17_31_29_PKT_2021.jpg><img src=Wed_Feb_24_17_31_29_PKT_2021.jpg height=200 width=200></img></a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (CLASS_NAME=&apos;android.widget.GridView&apos;))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;FARIZ-PC&apos;, ip: &apos;192.168.79.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_112&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appBuildVersion: , appPackage: com.newsoftwares.folderlock_v1, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: true, autoWebview: false, browserName: , commandTimeouts: 120000, desired: {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appPackage: com.newsoftwares.folderlock_v1, autoGrantPermissions: true, browserName: , deviceName: SM-G950U, fullReset: false, noReset: true, platformName: Android, platformVersion: 9}, device.category: PHONE, device.majorVersion: 9, device.manufacture: Genymotion, device.model: Custom Phone, device.name: Custom Phone, device.os: Android, device.screenSize: 1080x2160, device.serialNumber: 192.168.79.105:5555, device.version: 9, deviceName: SM-G950U, deviceUDID: 192.168.79.105:5555, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: true, platform: ANDROID, platformName: Android, platformVersion: 9, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Fariz Anjum\appium..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 02/24/21 05:30 PM, udid: 192.168.79.105:5555, useKeystore: false, waitForDeviceTimeout: 120000}
+Session ID: a1a7a9b7-84bc-441a-a32b-492519d1a50b
+*** Element info: {Using=class name, value=android.widget.GridView}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByClassName(DefaultGenericMobileDriver.java:125)
+	at io.appium.java_client.AppiumDriver.findElementByClassName(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByClassName(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.findElement(Unknown Source)
+	at Pages.SelectMedia.longPress(SelectMedia.java:37)
+	at test.VideosSection.TestDeleteVideos.VerifyVideosSelected(TestDeleteVideos.java:19)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m28">test.VideosSection.TestHideVideos#Validate_CountVideos</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Click to see Screenshot<br/><a target="_blank" href=Wed_Feb_24_17_31_28_PKT_2021.jpg>Screenshot</a><br/><br><br/><br><br/><a target="_blank" href=Wed_Feb_24_17_31_28_PKT_2021.jpg><img src=Wed_Feb_24_17_31_28_PKT_2021.jpg height=200 width=200></img></a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (CLASS_NAME=&apos;android.widget.GridView&apos;))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;FARIZ-PC&apos;, ip: &apos;192.168.79.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_112&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appBuildVersion: , appPackage: com.newsoftwares.folderlock_v1, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: true, autoWebview: false, browserName: , commandTimeouts: 120000, desired: {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appPackage: com.newsoftwares.folderlock_v1, autoGrantPermissions: true, browserName: , deviceName: SM-G950U, fullReset: false, noReset: true, platformName: Android, platformVersion: 9}, device.category: PHONE, device.majorVersion: 9, device.manufacture: Genymotion, device.model: Custom Phone, device.name: Custom Phone, device.os: Android, device.screenSize: 1080x2160, device.serialNumber: 192.168.79.105:5555, device.version: 9, deviceName: SM-G950U, deviceUDID: 192.168.79.105:5555, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: true, platform: ANDROID, platformName: Android, platformVersion: 9, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Fariz Anjum\appium..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 02/24/21 05:30 PM, udid: 192.168.79.105:5555, useKeystore: false, waitForDeviceTimeout: 120000}
+Session ID: a1a7a9b7-84bc-441a-a32b-492519d1a50b
+*** Element info: {Using=class name, value=android.widget.GridView}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByClassName(DefaultGenericMobileDriver.java:125)
+	at io.appium.java_client.AppiumDriver.findElementByClassName(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByClassName(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at Pages.SelectMedia.coutLibraryImages(SelectMedia.java:32)
+	at test.VideosSection.TestHideVideos.Validate_CountVideos(TestHideVideos.java:22)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m29">test.VideosSection.TestOpenGallery#validate_VideosFoundOnDevice</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Click to see Screenshot<br/><a target="_blank" href=Wed_Feb_24_17_31_26_PKT_2021.jpg>Screenshot</a><br/><br><br/><br><br/><a target="_blank" href=Wed_Feb_24_17_31_26_PKT_2021.jpg><img src=Wed_Feb_24_17_31_26_PKT_2021.jpg height=200 width=200></img></a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (XPATH=&apos;//*[@resource-id=&apos;com.newsoftwares.folderlock_v1:id/album_import_ListView&apos;]&apos;))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;FARIZ-PC&apos;, ip: &apos;192.168.79.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_112&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appBuildVersion: , appPackage: com.newsoftwares.folderlock_v1, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: true, autoWebview: false, browserName: , commandTimeouts: 120000, desired: {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appPackage: com.newsoftwares.folderlock_v1, autoGrantPermissions: true, browserName: , deviceName: SM-G950U, fullReset: false, noReset: true, platformName: Android, platformVersion: 9}, device.category: PHONE, device.majorVersion: 9, device.manufacture: Genymotion, device.model: Custom Phone, device.name: Custom Phone, device.os: Android, device.screenSize: 1080x2160, device.serialNumber: 192.168.79.105:5555, device.version: 9, deviceName: SM-G950U, deviceUDID: 192.168.79.105:5555, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: true, platform: ANDROID, platformName: Android, platformVersion: 9, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Fariz Anjum\appium..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 02/24/21 05:30 PM, udid: 192.168.79.105:5555, useKeystore: false, waitForDeviceTimeout: 120000}
+Session ID: a1a7a9b7-84bc-441a-a32b-492519d1a50b
+*** Element info: {Using=xpath, value=//*[@resource-id=&apos;com.newsoftwares.folderlock_v1:id/album_import_ListView&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at Pages.CheckMediaInDevice.countMediaFolder(CheckMediaInDevice.java:26)
+	at test.VideosSection.TestOpenGallery.validate_VideosFoundOnDevice(TestOpenGallery.java:39)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m30">test.VideosSection.TestOpenVideos#validate_ClickOnVideosSection</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Click to see Screenshot<br/><a target="_blank" href=Wed_Feb_24_17_31_04_PKT_2021.jpg>Screenshot</a><br/><br><br/><br><br/><a target="_blank" href=Wed_Feb_24_17_31_04_PKT_2021.jpg><img src=Wed_Feb_24_17_31_04_PKT_2021.jpg height=200 width=200></img></a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (XPATH=&apos;//*[@text=&apos;Videos&apos;]&apos;))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;FARIZ-PC&apos;, ip: &apos;192.168.79.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_112&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appBuildVersion: , appPackage: com.newsoftwares.folderlock_v1, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: true, autoWebview: false, browserName: , commandTimeouts: 120000, desired: {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appPackage: com.newsoftwares.folderlock_v1, autoGrantPermissions: true, browserName: , deviceName: SM-G950U, fullReset: false, noReset: true, platformName: Android, platformVersion: 9}, device.category: PHONE, device.majorVersion: 9, device.manufacture: Genymotion, device.model: Custom Phone, device.name: Custom Phone, device.os: Android, device.screenSize: 1080x2160, device.serialNumber: 192.168.79.105:5555, device.version: 9, deviceName: SM-G950U, deviceUDID: 192.168.79.105:5555, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: true, platform: ANDROID, platformName: Android, platformVersion: 9, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Fariz Anjum\appium..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 02/24/21 05:30 PM, udid: 192.168.79.105:5555, useKeystore: false, waitForDeviceTimeout: 120000}
+Session ID: a1a7a9b7-84bc-441a-a32b-492519d1a50b
+*** Element info: {Using=xpath, value=//*[@text=&apos;Videos&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at Pages.OpenVideosSection.OpenVideos(OpenVideosSection.java:31)
+	at test.VideosSection.TestOpenVideos.validate_ClickOnVideosSection(TestOpenVideos.java:17)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m31">test.VideosSection.TestUnhideVideos#verify_MediaSelectedToUnhide</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Click to see Screenshot<br/><a target="_blank" href=Wed_Feb_24_17_31_31_PKT_2021.jpg>Screenshot</a><br/><br><br/><br><br/><a target="_blank" href=Wed_Feb_24_17_31_31_PKT_2021.jpg><img src=Wed_Feb_24_17_31_31_PKT_2021.jpg height=200 width=200></img></a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (CLASS_NAME=&apos;android.widget.GridView&apos;))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;FARIZ-PC&apos;, ip: &apos;192.168.79.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_112&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appBuildVersion: , appPackage: com.newsoftwares.folderlock_v1, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: true, autoWebview: false, browserName: , commandTimeouts: 120000, desired: {app: C:\Users\Fariz Anjum\Deskto..., appActivity: .SplashActvity, appPackage: com.newsoftwares.folderlock_v1, autoGrantPermissions: true, browserName: , deviceName: SM-G950U, fullReset: false, noReset: true, platformName: Android, platformVersion: 9}, device.category: PHONE, device.majorVersion: 9, device.manufacture: Genymotion, device.model: Custom Phone, device.name: Custom Phone, device.os: Android, device.screenSize: 1080x2160, device.serialNumber: 192.168.79.105:5555, device.version: 9, deviceName: SM-G950U, deviceUDID: 192.168.79.105:5555, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: true, platform: ANDROID, platformName: Android, platformVersion: 9, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Fariz Anjum\appium..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 02/24/21 05:30 PM, udid: 192.168.79.105:5555, useKeystore: false, waitForDeviceTimeout: 120000}
+Session ID: a1a7a9b7-84bc-441a-a32b-492519d1a50b
+*** Element info: {Using=class name, value=android.widget.GridView}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByClassName(DefaultGenericMobileDriver.java:125)
+	at io.appium.java_client.AppiumDriver.findElementByClassName(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByClassName(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.findElement(Unknown Source)
+	at Pages.SelectMedia.longPress(SelectMedia.java:37)
+	at test.VideosSection.TestUnhideVideos.verify_MediaSelectedToUnhide(TestUnhideVideos.java:20)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m32">test.VideosSection.TestDeleteVideos#VerifyDeleteVideosBtn_working</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method TestDeleteVideos.VerifyDeleteVideosBtn_working()[pri:2, instance:test.VideosSection.TestDeleteVideos@24b813] depends on not successfully finished methods
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m33">test.VideosSection.TestHideVideos#Validate_All_VideosImported</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method TestHideVideos.Validate_All_VideosImported()[pri:4, instance:test.VideosSection.TestHideVideos@1fb8912] depends on not successfully finished methods
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m34">test.VideosSection.TestHideVideos#Validate_HideButton_working</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method TestHideVideos.Validate_HideButton_working()[pri:3, instance:test.VideosSection.TestHideVideos@1fb8912] depends on not successfully finished methods
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m35">test.VideosSection.TestHideVideos#Validate_VideosSelected</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method TestHideVideos.Validate_VideosSelected()[pri:2, instance:test.VideosSection.TestHideVideos@1fb8912] depends on not successfully finished methods
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m36">test.VideosSection.TestOpenGallery#validate_VideosFolder_Open</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method TestOpenGallery.validate_VideosFolder_Open()[pri:5, instance:test.VideosSection.TestOpenGallery@17148e2] depends on not successfully finished methods
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m37">test.VideosSection.TestOpenVideos#validate_TutorialPopUpSkipped</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method TestOpenVideos.validate_TutorialPopUpSkipped()[pri:2, instance:test.VideosSection.TestOpenVideos@3588e6] depends on not successfully finished methods
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m38">test.VideosSection.TestOpenVideos#validate_VideosPageTitle_correct</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method TestOpenVideos.validate_VideosPageTitle_correct()[pri:3, instance:test.VideosSection.TestOpenVideos@3588e6] depends on not successfully finished methods
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m39">test.VideosSection.TestUnhideVideos#verify_UnhideBtnWorking</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method TestUnhideVideos.verify_UnhideBtnWorking()[pri:2, instance:test.VideosSection.TestUnhideVideos@35e847] depends on not successfully finished methods
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m40">test.PhotosSection.TestBackButton#pressBackButton</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Press back button two time to go back main screen</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m41">test.VideosSection.TestCreateNewAlbum#validate_FolderIsOpen</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Folder Open succesfully</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m42">test.VideosSection.TestCreateNewAlbum#validate_FolderTitle_correct</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">'AutoCreate' title same as expected</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m43">test.VideosSection.TestCreateNewAlbum#validate_NewFolderCreated</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">'AutoCreate' Folder created successfully</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m44">test.VideosSection.TestEditAlbum#clickOnEditAlbum</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Edit Album button working</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m45">test.VideosSection.TestEditAlbum#validate_NewFolderCreated</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">'AutoCreate' Folder Already present in device</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m46">test.VideosSection.TestEditAlbum#varify_AlbumDeleteWorking</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Album Delete button Working</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m47">test.VideosSection.TestEditAlbum#varify_AlbumRenameWorking</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Album Rename working</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m48">test.VideosSection.TestOpenGallery#validate_GalleryTitle_Correct</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Open Gallery Title of videos Library is correct</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m49">test.VideosSection.TestOpenGallery#validate_ImportFromGalleryBtn_Working</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">import From gallery working</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m50">test.VideosSection.TestOpenGallery#validate_PlusButton_Working</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Import Plus Button Working fine</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -1,17 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FolderLock Suite]">
+  <listeners>
+    <listener class-name="listeners.CustomListener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="Test Photos Section Complete(failed)">
     <classes>
+      <class name="test.PhotosSection.TestOpenGallery">
+        <methods>
+          <include name="validate_ImageFolder_Open"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="validate_ImagesFoundOnDevice"/>
+        </methods>
+      </class> <!-- test.PhotosSection.TestOpenGallery -->
+      <class name="test.PhotosSection.TestVerifyHidePhotos">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Validate_All_ImagesUpladed"/>
+          <include name="Validate_CountImages"/>
+          <include name="setup"/>
+          <include name="Validate_ImagesSelected"/>
+        </methods>
+      </class> <!-- test.PhotosSection.TestVerifyHidePhotos -->
+      <class name="test.PhotosSection.TestDeletePhotos">
+        <methods>
+          <include name="VerifyImageSelected"/>
+          <include name="tearDown"/>
+          <include name="VeryDeletePhotosBtn_working"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- test.PhotosSection.TestDeletePhotos -->
+      <class name="test.PhotosSection.TestUnhidePhotos">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verify_MediaSelectedToUnhide"/>
+          <include name="verify_UnhideBtnWorking"/>
+        </methods>
+      </class> <!-- test.PhotosSection.TestUnhidePhotos -->
       <class name="test.PhotosSection.TestLoginWithPin">
         <methods>
           <include name="validate_pin_working_correct"/>
-          <include name="setup"/>
           <include name="tearDown"/>
-          <include name="validate_DashboardApear_Correct"/>
-          <include name="validate_ratingPopUpSkiped"/>
+          <include name="setup"/>
         </methods>
       </class> <!-- test.PhotosSection.TestLoginWithPin -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test Photos Section Complete(failed) -->
+  <test thread-count="5" name="Test Videos section(failed)">
+    <classes>
+      <class name="test.VideosSection.TestDeleteVideos">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyDeleteVideosBtn_working"/>
+          <include name="VerifyVideosSelected"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- test.VideosSection.TestDeleteVideos -->
+      <class name="test.VideosSection.TestHideVideos">
+        <methods>
+          <include name="Validate_CountVideos"/>
+          <include name="Validate_VideosSelected"/>
+          <include name="tearDown"/>
+          <include name="Validate_All_VideosImported"/>
+          <include name="Validate_HideButton_working"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- test.VideosSection.TestHideVideos -->
+      <class name="test.VideosSection.TestOpenGallery">
+        <methods>
+          <include name="tearDown"/>
+          <include name="validate_PlusButton_Working"/>
+          <include name="validate_GalleryTitle_Correct"/>
+          <include name="validate_VideosFoundOnDevice"/>
+          <include name="setup"/>
+          <include name="validate_VideosFolder_Open"/>
+          <include name="validate_ImportFromGalleryBtn_Working"/>
+        </methods>
+      </class> <!-- test.VideosSection.TestOpenGallery -->
+      <class name="test.VideosSection.TestUnhideVideos">
+        <methods>
+          <include name="verify_UnhideBtnWorking"/>
+          <include name="tearDown"/>
+          <include name="verify_MediaSelectedToUnhide"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- test.VideosSection.TestUnhideVideos -->
+      <class name="test.VideosSection.TestOpenVideos">
+        <methods>
+          <include name="validate_ClickOnVideosSection"/>
+          <include name="validate_VideosPageTitle_correct"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="validate_TutorialPopUpSkipped"/>
+        </methods>
+      </class> <!-- test.VideosSection.TestOpenVideos -->
+    </classes>
+  </test> <!-- Test Videos section(failed) -->
+</suite> <!-- Failed suite [FolderLock Suite] -->

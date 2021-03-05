@@ -6,10 +6,9 @@
       <class name="test.PhotosSection.TestLoginWithPin">
         <methods>
           <include name="validate_pin_working_correct"/>
-          <include name="setup"/>
           <include name="tearDown"/>
           <include name="validate_DashboardApear_Correct"/>
-          <include name="validate_ratingPopUpSkiped"/>
+          <include name="setup"/>
         </methods>
       </class> <!-- test.PhotosSection.TestLoginWithPin -->
     </classes>

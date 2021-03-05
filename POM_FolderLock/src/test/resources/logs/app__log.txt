@@ -1,0 +1,4 @@
+INFO    2021-02-24 17:29:22,171 [main] devpinoyLogger  - This is information log 
+INFO    2021-02-24 17:29:22,172 [main] devpinoyLogger  - config file loaded
+ERROR   2021-02-24 17:29:22,172 [main] devpinoyLogger  - here the error log printed
+INFO    2021-02-24 17:29:22,173 [main] devpinoyLogger  - OR file loades
